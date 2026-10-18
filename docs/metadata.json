@@ -1,0 +1,54 @@
+{
+    "doc_desc": {
+        "title": "Domestic Tourism Expenditure Survey, NSS 80th round of July 2025 to June 2026",
+        "idno": "DDI-IND-MOSPI-NSSO-DTES-2025-26",
+        "producers": [
+            {
+                "name": "Household Survey Division",
+                "abbr": "HSD",
+                "affiliation": "MoSPI"
+            }
+        ],
+        "prod_date": "23-09-2026"
+    },
+    "study_desc": {
+        "title_statement": {
+            "idno": "DDI-IND-MOSPI-NSSO-DTES-2025-26",
+            "title": "Domestic Tourism Expenditure Survey, NSS 80th round of July 2025 to June 2026"
+        },
+        "study_info": {
+            "keywords": [
+                {
+                    "keyword": "Domestic Tourism"
+                },
+                {
+                    "keyword": "DTES"
+                },
+                {
+                    "keyword": "Tourism"
+                },
+                {
+                    "keyword": "Overnight trips"
+                },
+                {
+                    "keyword": "Same-Day trips"
+                },
+                {
+                    "keyword": "Tourism Expenditure"
+                }
+            ],
+            "data_kind": "Sample survey data [ssd]",
+            "abstract": "The Domestic Tourism Expenditure Survey focuses on capturing various aspects of domestic tourism activity undertaken by the households during a given reference period. The present survey was\nconducted during July 2025 to June 2026. Survey captured the details of movement of one or more members of the household to a main destination with some leading purpose. Various details of the trip undertaken such as trip duration, no. of visitors, visitor\u2019s purpose for the trip, overall leading purpose of the trip, main destination, starting month of the trip, mode of travel, type of stay, expenditure\nincurred in connection with the trip etc. were collected from the households.",
+            "geog_coverage": "The survey covers the whole of the Indian Union except except few villages in Andaman and Nicobar Islands which are difficult to access. \nA total of 24,778 FSUs were surveyed at all-India level consisting of 14,371 rural and 10,407 urban FSUs for this survey. \n"
+        },
+        "method": {
+            "data_collection": {
+                "sampling_procedure": "Outline of sampling design: A multi-stage stratified sampling design was used where villages\/urban blocks or Sub-Units (SUs) of these were regarded as the First Stage Units (FSU) and the households as the Ultimate Stage Units (USU). Both the FSUs and USUs were selected with Simple Random Sampling Without Replacement (SRSWOR).",
+                "sample_frame": {
+                    "name": "Sampling frame for selection of FSUs: The sampling frame for urban sector is the list of Urban Frame Survey (UFS) blocks as per the latest UFS and for rural sector, it is the list of villages as per Census 2011 updated by removing those villages which are urbanized and included in latest UFS (till the time of sample selection). Sometimes, with a view to ensuring uniformity in the size of FSUs and for operational convenience, large villages\/UFS blocks are notionally divided into smaller units of more or less equal size, known as sub-units using a pre-defined criteria based on population in the village or number of households in the UFS block. Stratification of FSUs: The primary geographical unit, called basic stratum within a state\/UT for rural and urban sectors, was a district. Rural Sector: (i)\tA Special Stratum comprising of all the uninhabited villages as per Census 2011 was formed at all-India level. (ii)\tThe remaining villages within each district constituted a separate stratum. Urban Sector: Two or more strata were formed in urban areas of each basic stratum with the following criteria:             (i)\tEach million plus city as per census 2011 was considered as a separate stratum. (ii)\tRest of the urban areas of the district constituted another stratum. Sub-stratification of FSUs: In rural sector, the number of groups to be formed within a rural stratum (which is a district excluding all uninhabited villages) depended on the sample size allocated to the stratum based on its population size. The minimum allocation to be done in a stratum was 4 FSUs. In each stratum with more than 4 allotted FSUs (i.e., where n > 4), 2 or more groups (sub-strata) were formed. For formation of these sub-strata, the villages within a stratum were ordered in terms of its population size, then these ordered villages were clubbed into n\/4 groups such that each group would comprise of a set of villages (all SUs of a village considered together) of the arranged frame and had more or less equal population. In the urban sector, sub-strata were formed in those strata where the allotted number of FSUs was more than 4 (i.e., n>4). For all strata with n >4, all the UFS blocks within the strata were first arranged in ascending order of total number of households in the UFS blocks as per urban frame. Then sub-strata were demarcated in such a way that each sub-stratum would comprise a group of UFS blocks (all SUs of a block considered together) having more or less equal number of households. If the number of blocks in a particular stratum was very small, no sub-stratum was formed in the stratum. Allocation of FSUs: Based on projected population (as on 1st March 2025) for each district the allocation of FSUs (urban blocks or village or subunits) was adjusted to ensure uniformity in the population distribution across Sample FSUs within each State\/UT. For special stratum formed in rural areas, 24 FSUs were allocated. Sample Size:   Around 24,778 FSUs were surveyed for the central sample at all-India level.  A minimum of 16 FSUs (8 each for the rural and urban sector) were allocated to each State\/ UT. Allocation to sub-strata:  Allocation of FSUs for each sub-stratum was 4 in both rural and urban sectors. Selection of FSUs within stratum\/sub-stratum  The required number of FSUs (which is the annual allocation within the given stratum \u00d7 sub-stratum) was selected by SRSWOR from each of the stratum \/ sub-stratum. Selection of households The required number of sample households from each SSS were selected through SRSWOR."
+                }
+            }
+        }
+    },
+    "schematype": "survey"
+}

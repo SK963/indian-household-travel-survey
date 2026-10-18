@@ -1,0 +1,11 @@
+BLOCK-02,,,,
+BLOCK,COL_ITEM,VARIABLE_NAME,CODE,CODE_DESCRIPTION
+BLOCK_02,ITM_09,Response Code of the informant,1,informant: co-operative and capable
+BLOCK_02,ITM_09,Response Code of the informant,2,informant: co-operative but not capable
+BLOCK_02,ITM_09,Response Code of the informant,3,informant: busy
+BLOCK_02,ITM_09,Response Code of the informant,4,informant: reluctant
+BLOCK_02,ITM_09,Response Code of the informant,9,informant: others 
+
+,,,,
+
+,,,,

@@ -1,0 +1,18 @@
+BLOCK-03,,,,
+BLOCK,COL_ITEM,VARIABLE_NAME,CODE,CODE_DESCRIPTION
+BLOCK_03,COL_03,Relation To Head,1,self
+BLOCK_03,COL_03,Relation To Head,2,spouse of head
+BLOCK_03,COL_03,Relation To Head,3,married child
+BLOCK_03,COL_03,Relation To Head,4,spouse of married child
+BLOCK_03,COL_03,Relation To Head,5,unmarried child
+BLOCK_03,COL_03,Relation To Head,6,grandchild
+BLOCK_03,COL_03,Relation To Head,7,father/mother/father-in-law/mother-in-law
+BLOCK_03,COL_03,Relation To Head,8,brother/sister/brother-in-law/sister-in-law/other relatives
+BLOCK_03,COL_03,Relation To Head,9,servants/employees/other non-relatives
+BLOCK_03,COL_04,Gender,1,male
+BLOCK_03,COL_04,Gender,2,female
+BLOCK_03,COL_04,Gender,3,transgender
+BLOCK_03,COL_06,Marital Status,1,never married
+BLOCK_03,COL_06,Marital Status,2,currently married(including living together)
+BLOCK_03,COL_06,Marital Status,3,widowed
+BLOCK_03,COL_06,marital status,4,divorced/separated

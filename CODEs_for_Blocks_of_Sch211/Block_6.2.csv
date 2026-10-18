@@ -1,0 +1,26 @@
+BLOCK-6.2,,,,
+BLOCK,COL_ITEM,VARIABLE_NAME,CODE,CODE_DESCRIPTION
+BLOCK_6.2,ITM_3.1,Transport,1,yes
+BLOCK_6.2,ITM_3.1,Transport,2,no
+BLOCK_6.2,ITM_3.2,Accommodation,1,yes
+BLOCK_6.2,ITM_3.2,Accommodation,2,no
+BLOCK_6.2,ITM_3.3,Meals/food,1,yes
+BLOCK_6.2,ITM_3.3,Meals/food,2,no
+BLOCK_6.2,ITM_3.4,Sightseeing and entertainment,1,yes
+BLOCK_6.2,ITM_3.4,Sightseeing and entertainment,2,no
+BLOCK_6.2,ITM_12,"Whether any reimbursement/direct payment was made by Government organisation (like, Central Government, State Government, Local Bodies, Public Sector Undertakings, organisations wholly funded by government) for this trip ",1,yes and amount known
+BLOCK_6.2,ITM_12,"Whether any reimbursement/direct payment was made by Government organisation (like, Central Government, State Government, Local Bodies, Public Sector Undertakings, organisations wholly funded by government) for this trip ",2,yes and amount not known
+BLOCK_6.2,ITM_12,"Whether any reimbursement/direct payment was made by Government organisation (like, Central Government, State Government, Local Bodies, Public Sector Undertakings, organisations wholly funded by government) for this trip ",3,no
+BLOCK_6.2,ITM_14,Whether any reimbursement/direct payment was made by other organisation/ institution/ non-household members but not covered in item 12,1,yes and amount known
+BLOCK_6.2,ITM_14,Whether any reimbursement/direct payment was made by other organisation/ institution/ non-household members but not covered in item 12,2,yes and amount not known
+BLOCK_6.2,ITM_14,Whether any reimbursement/direct payment was made by other organisation/ institution/ non-household members but not covered in item 12,3,no
+BLOCK_6.2,ITM_16.1,"Booked accommodation/ transport/ food, etc.,through tour operator using internet",1,yes
+BLOCK_6.2,ITM_16.1,"Booked accommodation/ transport/ food, etc.,through tour operator using internet",2,no
+BLOCK_6.2,ITM_16.2,"Booked accommodation/ transport/ food, etc.,through tour operator without using internet",1,yes
+BLOCK_6.2,ITM_16.2,"Booked accommodation/ transport/ food, etc.,through tour operator without using internet",2,no
+BLOCK_6.2,ITM_16.3,"Booked accommodation/ transport/ food, etc.directly using internet",1,yes
+BLOCK_6.2,ITM_16.3,"Booked accommodation/ transport/ food, etc.directly using internet",2,no
+BLOCK_6.2,ITM_16.4,"Booked accommodation/ transport/ food, etc.directly without using internet",1,yes
+BLOCK_6.2,ITM_16.4,"Booked accommodation/ transport/ food, etc.directly without using internet",2,no
+BLOCK_6.2,ITM_16.5,Services of tour guide,1,yes
+BLOCK_6.2,ITM_16.5,Services of tour guide,2,no

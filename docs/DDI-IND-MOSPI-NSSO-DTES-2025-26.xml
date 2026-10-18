@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook version="2.5" ID="DDI-IND-MOSPI-NSSO-DTES-2025-26" xml-lang="en" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 https://ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+<docDscr>
+  <citation>
+    <titlStmt>
+      <IDNo>DDI-IND-MOSPI-NSSO-DTES-2025-26</IDNo>
+      <titl>Domestic Tourism Expenditure Survey, NSS 80th round of July 2025 to June 2026</titl>
+    </titlStmt>
+    <prodStmt>
+      <producer abbr="" affiliation="MoSPI" role="">Household Survey Division</producer>
+      <prodDate date="23-09-2026">23-09-2026</prodDate>
+      <software version="v5">NADA</software>
+    </prodStmt>
+    <verStmt>
+      <version></version>
+    </verStmt>
+  </citation>
+</docDscr>
+<stdyDscr>
+  <citation>
+    <titlStmt>
+      <titl>Domestic Tourism Expenditure Survey, NSS 80th round of July 2025 to June 2026</titl>
+      <subTitl/>
+      <altTitl/>
+      <parTitl/>
+      <IDNo>DDI-IND-MOSPI-NSSO-DTES-2025-26</IDNo>
+    </titlStmt>
+    <rspStmt>
+                
+                        
+              </rspStmt>
+    <prodStmt>
+      <copyright/>
+      <software version="beta" date="2026-09-24">MetadataEditor</software>
+      <prodDate/>
+      <prodPlac/>
+    </prodStmt>
+    <distStmt>
+      <depDate date=""/>
+      <distDate date=""/>
+    </distStmt>
+    <serStmt>
+      <serName/>
+      <serInfo><![CDATA[]]></serInfo>
+    </serStmt>
+    <verStmt>
+      <version date=""/>
+      <verResp/>
+      <notes><![CDATA[]]></notes>
+    </verStmt>
+    <biblCit format=""><![CDATA[]]></biblCit>
+    <notes><![CDATA[]]></notes>
+  </citation>
+  <studyAuthorization date="">
+    <authorizationStatement><![CDATA[]]></authorizationStatement>
+  </studyAuthorization>
+  <stdyInfo>
+    <studyBudget><![CDATA[]]></studyBudget>
+    <subject>
+      <keyword vocab="" vocabURI="">Domestic Tourism</keyword>
+      <keyword vocab="" vocabURI="">DTES</keyword>
+      <keyword vocab="" vocabURI="">Tourism</keyword>
+      <keyword vocab="" vocabURI="">Overnight trips</keyword>
+      <keyword vocab="" vocabURI="">Same-Day trips</keyword>
+      <keyword vocab="" vocabURI="">Tourism Expenditure</keyword>
+    </subject>
+    <abstract><![CDATA[The Domestic Tourism Expenditure Survey focuses on capturing various aspects of domestic tourism activity undertaken by the households during a given reference period. The present survey was
+conducted during July 2025 to June 2026. Survey captured the details of movement of one or more members of the household to a main destination with some leading purpose. Various details of the trip undertaken such as trip duration, no. of visitors, visitor’s purpose for the trip, overall leading purpose of the trip, main destination, starting month of the trip, mode of travel, type of stay, expenditure
+incurred in connection with the trip etc. were collected from the households.]]></abstract>
+    <sumDscr>
+      <geogCover>The survey covers the whole of the Indian Union except except few villages in Andaman and Nicobar Islands which are difficult to access. 
+A total of 24,778 FSUs were surveyed at all-India level consisting of 14,371 rural and 10,407 urban FSUs for this survey. 
+</geogCover>
+      <geogCoverNote/>
+      <geogUnit/>
+      <anlyUnit><![CDATA[]]></anlyUnit>
+      <universe><![CDATA[]]></universe>
+      <dataKind>Sample survey data [ssd]</dataKind>
+    </sumDscr>
+    <qualityStatement>
+      <standardsCompliance>
+        <complianceDescription/>
+      </standardsCompliance>
+      <otherQualityStatement/>
+    </qualityStatement>
+    <notes><![CDATA[]]></notes>
+    <exPostEvaluation completionDate="" type="">
+      <evaluationProcess/>
+      <outcomes/>
+    </exPostEvaluation>
+  </stdyInfo>
+  <method>
+    <dataColl>
+      <timeMeth/>
+      <frequenc/>
+      <sampProc><![CDATA[Outline of sampling design: A multi-stage stratified sampling design was used where villages/urban blocks or Sub-Units (SUs) of these were regarded as the First Stage Units (FSU) and the households as the Ultimate Stage Units (USU). Both the FSUs and USUs were selected with Simple Random Sampling Without Replacement (SRSWOR).]]></sampProc>
+      <sampleFrame>
+        <sampleFrameName>Sampling frame for selection of FSUs: The sampling frame for urban sector is the list of Urban Frame Survey (UFS) blocks as per the latest UFS and for rural sector, it is the list of villages as per Census 2011 updated by removing those villages which are urbanized and included in latest UFS (till the time of sample selection). Sometimes, with a view to ensuring uniformity in the size of FSUs and for operational convenience, large villages/UFS blocks are notionally divided into smaller units of more or less equal size, known as sub-units using a pre-defined criteria based on population in the village or number of households in the UFS block. Stratification of FSUs: The primary geographical unit, called basic stratum within a state/UT for rural and urban sectors, was a district. Rural Sector: (i)A Special Stratum comprising of all the uninhabited villages as per Census 2011 was formed at all-India level. (ii)The remaining villages within each district constituted a separate stratum. Urban Sector: Two or more strata were formed in urban areas of each basic stratum with the following criteria:             (i)Each million plus city as per census 2011 was considered as a separate stratum. (ii)Rest of the urban areas of the district constituted another stratum. Sub-stratification of FSUs: In rural sector, the number of groups to be formed within a rural stratum (which is a district excluding all uninhabited villages) depended on the sample size allocated to the stratum based on its population size. The minimum allocation to be done in a stratum was 4 FSUs. In each stratum with more than 4 allotted FSUs (i.e., where n &gt; 4), 2 or more groups (sub-strata) were formed. For formation of these sub-strata, the villages within a stratum were ordered in terms of its population size, then these ordered villages were clubbed into n/4 groups such that each group would comprise of a set of villages (all SUs of a village considered together) of the arranged frame and had more or less equal population. In the urban sector, sub-strata were formed in those strata where the allotted number of FSUs was more than 4 (i.e., n&gt;4). For all strata with n &gt;4, all the UFS blocks within the strata were first arranged in ascending order of total number of households in the UFS blocks as per urban frame. Then sub-strata were demarcated in such a way that each sub-stratum would comprise a group of UFS blocks (all SUs of a block considered together) having more or less equal number of households. If the number of blocks in a particular stratum was very small, no sub-stratum was formed in the stratum. Allocation of FSUs: Based on projected population (as on 1st March 2025) for each district the allocation of FSUs (urban blocks or village or subunits) was adjusted to ensure uniformity in the population distribution across Sample FSUs within each State/UT. For special stratum formed in rural areas, 24 FSUs were allocated. Sample Size:   Around 24,778 FSUs were surveyed for the central sample at all-India level.  A minimum of 16 FSUs (8 each for the rural and urban sector) were allocated to each State/ UT. Allocation to sub-strata:  Allocation of FSUs for each sub-stratum was 4 in both rural and urban sectors. Selection of FSUs within stratum/sub-stratum  The required number of FSUs (which is the annual allocation within the given stratum × sub-stratum) was selected by SRSWOR from each of the stratum / sub-stratum. Selection of households The required number of sample households from each SSS were selected through SRSWOR.</sampleFrameName>
+        <custodian/>
+        <universe/>
+        <frameUnit isPrimary="">
+          <unitType numberOfUnits=""/>
+        </frameUnit>
+        <updateProcedure/>
+      </sampleFrame>
+      <deviat/>
+      <resInstru><![CDATA[]]></resInstru>
+      <instrumentDevelopment type=""/>
+      <collSitu><![CDATA[]]></collSitu>
+      <actMin><![CDATA[]]></actMin>
+      <ConOps><![CDATA[]]></ConOps>
+      <weight><![CDATA[]]></weight>
+      <cleanOps><![CDATA[]]></cleanOps>
+    </dataColl>
+    <notes><![CDATA[]]></notes>
+    <anlyInfo>
+      <respRate><![CDATA[]]></respRate>
+      <EstSmpErr><![CDATA[]]></EstSmpErr>
+      <dataAppr><![CDATA[]]></dataAppr>
+    </anlyInfo>
+    <stdyClas><![CDATA[]]></stdyClas>
+  </method>
+  <dataAccs>
+    <setAvail>
+      <accsPlac URI=""/>
+      <origArch/>
+      <avlStatus/>
+      <collSize/>
+      <complete/>
+      <fileQnty/>
+      <notes><![CDATA[]]></notes>
+    </setAvail>
+    <useStmt>
+      <restrctn/>
+      <citReq><![CDATA[]]></citReq>
+      <deposReq><![CDATA[]]></deposReq>
+      <conditions><![CDATA[]]></conditions>
+      <disclaimer><![CDATA[]]></disclaimer>
+    </useStmt>
+    <notes><![CDATA[]]></notes>
+  </dataAccs>
+  <notes><![CDATA[]]></notes>
+</stdyDscr>
+<dataDscr>
+</dataDscr></codeBook>

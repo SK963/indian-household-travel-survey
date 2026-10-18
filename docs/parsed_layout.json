@@ -1,0 +1,3012 @@
+{
+  "level_01": {
+    "title": "Sch. 21.1 :    LEVEL - 01(Blocks 1 and 2)",
+    "fields": [
+      {
+        "srl": 1,
+        "name": "Round",
+        "block": "1",
+        "item_no": "9",
+        "len": 2,
+        "start": 1,
+        "end": 2
+      },
+      {
+        "srl": 2,
+        "name": "Schedule",
+        "block": "1",
+        "item_no": "10",
+        "len": 3,
+        "start": 3,
+        "end": 5
+      },
+      {
+        "srl": 3,
+        "name": "FSU Serial No.",
+        "block": "1",
+        "item_no": "11",
+        "len": 5,
+        "start": 6,
+        "end": 10
+      },
+      {
+        "srl": 4,
+        "name": "Type of Sample",
+        "block": "1",
+        "item_no": "2",
+        "len": 1,
+        "start": 11,
+        "end": 11
+      },
+      {
+        "srl": 5,
+        "name": "Sector",
+        "block": "1",
+        "item_no": "1",
+        "len": 1,
+        "start": 12,
+        "end": 12
+      },
+      {
+        "srl": 6,
+        "name": "State",
+        "block": "1",
+        "item_no": "3",
+        "len": 2,
+        "start": 13,
+        "end": 14
+      },
+      {
+        "srl": 7,
+        "name": "NSS-Region",
+        "block": "",
+        "item_no": "",
+        "len": 3,
+        "start": 15,
+        "end": 17
+      },
+      {
+        "srl": 8,
+        "name": "District",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 18,
+        "end": 19
+      },
+      {
+        "srl": 9,
+        "name": "Stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 20,
+        "end": 21
+      },
+      {
+        "srl": 10,
+        "name": "Sub-stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 22,
+        "end": 23
+      },
+      {
+        "srl": 11,
+        "name": "Sub-Round",
+        "block": "",
+        "item_no": "",
+        "len": 1,
+        "start": 24,
+        "end": 24
+      },
+      {
+        "srl": 12,
+        "name": "FOD-Sub-Region",
+        "block": "",
+        "item_no": "",
+        "len": 4,
+        "start": 25,
+        "end": 28
+      },
+      {
+        "srl": 13,
+        "name": "Sample Sub-Unit (SU) Number:",
+        "block": "1",
+        "item_no": "8",
+        "len": 2,
+        "start": 29,
+        "end": 30
+      },
+      {
+        "srl": 14,
+        "name": "Sample Sub-Division Number",
+        "block": "1",
+        "item_no": "12",
+        "len": 1,
+        "start": 31,
+        "end": 31
+      },
+      {
+        "srl": 15,
+        "name": "Second-stage-stratum no.",
+        "block": "1",
+        "item_no": "13",
+        "len": 1,
+        "start": 32,
+        "end": 32
+      },
+      {
+        "srl": 16,
+        "name": "Sample hhld. No.",
+        "block": "1",
+        "item_no": "14",
+        "len": 2,
+        "start": 33,
+        "end": 34
+      },
+      {
+        "srl": 17,
+        "name": "level",
+        "block": "1",
+        "item_no": "",
+        "len": 2,
+        "start": 35,
+        "end": 36
+      },
+      {
+        "srl": 18,
+        "name": "Survey Code",
+        "block": "1",
+        "item_no": "15",
+        "len": 1,
+        "start": 37,
+        "end": 37
+      },
+      {
+        "srl": 19,
+        "name": "Reason for substitution Code",
+        "block": "1",
+        "item_no": "16",
+        "len": 1,
+        "start": 38,
+        "end": 38
+      },
+      {
+        "srl": 20,
+        "name": "Date of Survey",
+        "block": "2",
+        "item_no": "2(i)",
+        "len": 10,
+        "start": 39,
+        "end": 48
+      },
+      {
+        "srl": 21,
+        "name": "Time to canvass (minutes)",
+        "block": "2",
+        "item_no": "3",
+        "len": 3,
+        "start": 49,
+        "end": 51
+      },
+      {
+        "srl": 22,
+        "name": "Response code of the informant as assessed by SE/JSO",
+        "block": "2",
+        "item_no": "9",
+        "len": 1,
+        "start": 52,
+        "end": 52
+      },
+      {
+        "srl": 23,
+        "name": "Multiplier",
+        "block": "",
+        "item_no": "",
+        "len": 10,
+        "start": 53,
+        "end": 62
+      }
+    ]
+  },
+  "level_02": {
+    "title": "Sch. 21.1 :    LEVEL - 02 (Block 4)",
+    "fields": [
+      {
+        "srl": 1,
+        "name": "Round",
+        "block": "1",
+        "item_no": "9",
+        "len": 2,
+        "start": 1,
+        "end": 2
+      },
+      {
+        "srl": 2,
+        "name": "Schedule",
+        "block": "1",
+        "item_no": "10",
+        "len": 3,
+        "start": 3,
+        "end": 5
+      },
+      {
+        "srl": 3,
+        "name": "FSU Serial No.",
+        "block": "1",
+        "item_no": "11",
+        "len": 5,
+        "start": 6,
+        "end": 10
+      },
+      {
+        "srl": 4,
+        "name": "Type of Sample",
+        "block": "1",
+        "item_no": "2",
+        "len": 1,
+        "start": 11,
+        "end": 11
+      },
+      {
+        "srl": 5,
+        "name": "Sector",
+        "block": "1",
+        "item_no": "1",
+        "len": 1,
+        "start": 12,
+        "end": 12
+      },
+      {
+        "srl": 6,
+        "name": "State",
+        "block": "1",
+        "item_no": "3",
+        "len": 2,
+        "start": 13,
+        "end": 14
+      },
+      {
+        "srl": 7,
+        "name": "NSS-Region",
+        "block": "",
+        "item_no": "",
+        "len": 3,
+        "start": 15,
+        "end": 17
+      },
+      {
+        "srl": 8,
+        "name": "District",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 18,
+        "end": 19
+      },
+      {
+        "srl": 9,
+        "name": "Stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 20,
+        "end": 21
+      },
+      {
+        "srl": 10,
+        "name": "Sub-stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 22,
+        "end": 23
+      },
+      {
+        "srl": 11,
+        "name": "Sub-Round",
+        "block": "",
+        "item_no": "",
+        "len": 1,
+        "start": 24,
+        "end": 24
+      },
+      {
+        "srl": 12,
+        "name": "FOD-Sub-Region",
+        "block": "",
+        "item_no": "",
+        "len": 4,
+        "start": 25,
+        "end": 28
+      },
+      {
+        "srl": 13,
+        "name": "Sample Sub-Unit (SU) Number:",
+        "block": "1",
+        "item_no": "8",
+        "len": 2,
+        "start": 29,
+        "end": 30
+      },
+      {
+        "srl": 14,
+        "name": "Sample Sub-Division Number",
+        "block": "1",
+        "item_no": "12",
+        "len": 1,
+        "start": 31,
+        "end": 31
+      },
+      {
+        "srl": 15,
+        "name": "Second-stage-stratum no.",
+        "block": "1",
+        "item_no": "13",
+        "len": 1,
+        "start": 32,
+        "end": 32
+      },
+      {
+        "srl": 16,
+        "name": "Sample hhld. No.",
+        "block": "1",
+        "item_no": "14",
+        "len": 2,
+        "start": 33,
+        "end": 34
+      },
+      {
+        "srl": 17,
+        "name": "level",
+        "block": "4",
+        "item_no": "",
+        "len": 2,
+        "start": 35,
+        "end": 36
+      },
+      {
+        "srl": 18,
+        "name": "Household size",
+        "block": "4",
+        "item_no": "1",
+        "len": 2,
+        "start": 37,
+        "end": 38
+      },
+      {
+        "srl": 19,
+        "name": "Household type",
+        "block": "4",
+        "item_no": "2",
+        "len": 1,
+        "start": 39,
+        "end": 39
+      },
+      {
+        "srl": 20,
+        "name": "Religion",
+        "block": "4",
+        "item_no": "3",
+        "len": 1,
+        "start": 40,
+        "end": 40
+      },
+      {
+        "srl": 21,
+        "name": "Social group",
+        "block": "4",
+        "item_no": "4",
+        "len": 1,
+        "start": 41,
+        "end": 41
+      },
+      {
+        "srl": 22,
+        "name": "Whether any domestic overnight trips of duration less than or equal to 180 days completed by household members during last 365 days for leading purposes health & medical; holidaying, leisure and recreation; shopping and pilgrimage & religious activities",
+        "block": "4",
+        "item_no": "5",
+        "len": 1,
+        "start": 42,
+        "end": 42
+      },
+      {
+        "srl": 23,
+        "name": "Number of domestic overnight trips of duration less than or equal to 180 days completed by the household during last 365 days for different leading purposes: business",
+        "block": "4",
+        "item_no": "6.1",
+        "len": 2,
+        "start": 43,
+        "end": 44
+      },
+      {
+        "srl": 24,
+        "name": "Number of domestic overnight trips of duration less than or equal to 180 days completed by the household during last 365 days for different leading purposes: social (including visiting friends and relatives, attending marriages, etc.)",
+        "block": "4",
+        "item_no": "6.2",
+        "len": 2,
+        "start": 45,
+        "end": 46
+      },
+      {
+        "srl": 25,
+        "name": "Number of domestic overnight trips of duration less than or equal to 180 days completed by the household during last 365 days for different leading purposes: education & training",
+        "block": "4",
+        "item_no": "6.3",
+        "len": 2,
+        "start": 47,
+        "end": 48
+      },
+      {
+        "srl": 26,
+        "name": "Number of domestic overnight trips of duration less than or equal to 180 days completed by the household during last 365 days for different leading purposes: Others",
+        "block": "4",
+        "item_no": "6.4",
+        "len": 2,
+        "start": 49,
+        "end": 50
+      },
+      {
+        "srl": 27,
+        "name": "Whether any domestic overnight trip of duration less than or equal to 180 days was performed by any member of the household during last 30 days for leading purposes viz. business, social (including visiting friends and relatives, attending marriages, etc.), education & training, others?",
+        "block": "4",
+        "item_no": "7",
+        "len": 1,
+        "start": 51,
+        "end": 51
+      },
+      {
+        "srl": 28,
+        "name": "Whether any same day trip was performed by any member of the household during last 30 days",
+        "block": "4",
+        "item_no": "8",
+        "len": 1,
+        "start": 52,
+        "end": 52
+      },
+      {
+        "srl": 29,
+        "name": "Household\u2019s last month\u2019s consumption expenditure (excluding all incidental expenditures such as, marriage, hospitalization, institutional education fee etc.)(in Rs)",
+        "block": "4",
+        "item_no": "9",
+        "len": 8,
+        "start": 53,
+        "end": 60
+      },
+      {
+        "srl": 30,
+        "name": "Multiplier",
+        "block": "",
+        "item_no": "",
+        "len": 10,
+        "start": 61,
+        "end": 70
+      }
+    ]
+  },
+  "level_03": {
+    "title": "Sch. 21.1 :   LEVEL - 03 (Block 3)",
+    "fields": [
+      {
+        "srl": 1,
+        "name": "Round",
+        "block": "1",
+        "item_no": "9",
+        "len": 2,
+        "start": 1,
+        "end": 2
+      },
+      {
+        "srl": 2,
+        "name": "Schedule",
+        "block": "1",
+        "item_no": "10",
+        "len": 3,
+        "start": 3,
+        "end": 5
+      },
+      {
+        "srl": 3,
+        "name": "FSU Serial No.",
+        "block": "1",
+        "item_no": "11",
+        "len": 5,
+        "start": 6,
+        "end": 10
+      },
+      {
+        "srl": 4,
+        "name": "Type of Sample",
+        "block": "1",
+        "item_no": "2",
+        "len": 1,
+        "start": 11,
+        "end": 11
+      },
+      {
+        "srl": 5,
+        "name": "Sector",
+        "block": "1",
+        "item_no": "1",
+        "len": 1,
+        "start": 12,
+        "end": 12
+      },
+      {
+        "srl": 6,
+        "name": "State",
+        "block": "1",
+        "item_no": "3",
+        "len": 2,
+        "start": 13,
+        "end": 14
+      },
+      {
+        "srl": 7,
+        "name": "NSS-Region",
+        "block": "",
+        "item_no": "",
+        "len": 3,
+        "start": 15,
+        "end": 17
+      },
+      {
+        "srl": 8,
+        "name": "District",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 18,
+        "end": 19
+      },
+      {
+        "srl": 9,
+        "name": "Stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 20,
+        "end": 21
+      },
+      {
+        "srl": 10,
+        "name": "Sub-stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 22,
+        "end": 23
+      },
+      {
+        "srl": 11,
+        "name": "Sub-Round",
+        "block": "",
+        "item_no": "",
+        "len": 1,
+        "start": 24,
+        "end": 24
+      },
+      {
+        "srl": 12,
+        "name": "FOD-Sub-Region",
+        "block": "",
+        "item_no": "",
+        "len": 4,
+        "start": 25,
+        "end": 28
+      },
+      {
+        "srl": 13,
+        "name": "Sample Sub-Unit (SU) Number:",
+        "block": "1",
+        "item_no": "8",
+        "len": 2,
+        "start": 29,
+        "end": 30
+      },
+      {
+        "srl": 14,
+        "name": "Sample Sub-Division Number",
+        "block": "1",
+        "item_no": "12",
+        "len": 1,
+        "start": 31,
+        "end": 31
+      },
+      {
+        "srl": 15,
+        "name": "Second-stage-stratum no.",
+        "block": "1",
+        "item_no": "13",
+        "len": 1,
+        "start": 32,
+        "end": 32
+      },
+      {
+        "srl": 16,
+        "name": "Sample hhld. No.",
+        "block": "1",
+        "item_no": "14",
+        "len": 2,
+        "start": 33,
+        "end": 34
+      },
+      {
+        "srl": 17,
+        "name": "level",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 35,
+        "end": 36
+      },
+      {
+        "srl": 18,
+        "name": "household members srl no.",
+        "block": "3",
+        "item_no": "",
+        "len": 2,
+        "start": 37,
+        "end": 38
+      },
+      {
+        "srl": 19,
+        "name": "Relation to head",
+        "block": "3",
+        "item_no": "",
+        "len": 1,
+        "start": 39,
+        "end": 39
+      },
+      {
+        "srl": 20,
+        "name": "Gender",
+        "block": "3",
+        "item_no": "",
+        "len": 1,
+        "start": 40,
+        "end": 40
+      },
+      {
+        "srl": 21,
+        "name": "Age",
+        "block": "3",
+        "item_no": "",
+        "len": 3,
+        "start": 41,
+        "end": 43
+      },
+      {
+        "srl": 22,
+        "name": "Marital status",
+        "block": "3",
+        "item_no": "",
+        "len": 1,
+        "start": 44,
+        "end": 44
+      },
+      {
+        "srl": 23,
+        "name": "Multiplier",
+        "block": "",
+        "item_no": "",
+        "len": 10,
+        "start": 45,
+        "end": 54
+      }
+    ]
+  },
+  "level_04": {
+    "title": "Sch. 21.1 :   LEVEL - 04 (Block 5.1)",
+    "fields": [
+      {
+        "srl": 1,
+        "name": "Round",
+        "block": "1",
+        "item_no": "9",
+        "len": 2,
+        "start": 1,
+        "end": 2
+      },
+      {
+        "srl": 2,
+        "name": "Schedule",
+        "block": "1",
+        "item_no": "10",
+        "len": 3,
+        "start": 3,
+        "end": 5
+      },
+      {
+        "srl": 3,
+        "name": "FSU Serial No.",
+        "block": "1",
+        "item_no": "11",
+        "len": 5,
+        "start": 6,
+        "end": 10
+      },
+      {
+        "srl": 4,
+        "name": "Type of Sample",
+        "block": "1",
+        "item_no": "2",
+        "len": 1,
+        "start": 11,
+        "end": 11
+      },
+      {
+        "srl": 5,
+        "name": "Sector",
+        "block": "1",
+        "item_no": "1",
+        "len": 1,
+        "start": 12,
+        "end": 12
+      },
+      {
+        "srl": 6,
+        "name": "State",
+        "block": "1",
+        "item_no": "3",
+        "len": 2,
+        "start": 13,
+        "end": 14
+      },
+      {
+        "srl": 7,
+        "name": "NSS-Region",
+        "block": "",
+        "item_no": "",
+        "len": 3,
+        "start": 15,
+        "end": 17
+      },
+      {
+        "srl": 8,
+        "name": "District",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 18,
+        "end": 19
+      },
+      {
+        "srl": 9,
+        "name": "Stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 20,
+        "end": 21
+      },
+      {
+        "srl": 10,
+        "name": "Sub-stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 22,
+        "end": 23
+      },
+      {
+        "srl": 11,
+        "name": "Sub-Round",
+        "block": "",
+        "item_no": "",
+        "len": 1,
+        "start": 24,
+        "end": 24
+      },
+      {
+        "srl": 12,
+        "name": "FOD-Sub-Region",
+        "block": "",
+        "item_no": "",
+        "len": 4,
+        "start": 25,
+        "end": 28
+      },
+      {
+        "srl": 13,
+        "name": "Sample Sub-Unit (SU) Number:",
+        "block": "1",
+        "item_no": "8",
+        "len": 2,
+        "start": 29,
+        "end": 30
+      },
+      {
+        "srl": 14,
+        "name": "Sample Sub-Division Number",
+        "block": "1",
+        "item_no": "12",
+        "len": 1,
+        "start": 31,
+        "end": 31
+      },
+      {
+        "srl": 15,
+        "name": "Second-stage-stratum no.",
+        "block": "1",
+        "item_no": "13",
+        "len": 1,
+        "start": 32,
+        "end": 32
+      },
+      {
+        "srl": 17,
+        "name": "Sample hhld. No.",
+        "block": "1",
+        "item_no": "14",
+        "len": 2,
+        "start": 33,
+        "end": 34
+      },
+      {
+        "srl": 18,
+        "name": "level",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 35,
+        "end": 36
+      },
+      {
+        "srl": 19,
+        "name": "Srl. no. of the trip",
+        "block": "5.1",
+        "item_no": "",
+        "len": 2,
+        "start": 37,
+        "end": 38
+      },
+      {
+        "srl": 20,
+        "name": "No. of hhd members in the trip",
+        "block": "5.1",
+        "item_no": "",
+        "len": 2,
+        "start": 39,
+        "end": 40
+      },
+      {
+        "srl": 21,
+        "name": "Sl. No. of hhd members who was in that trip",
+        "block": "5.1",
+        "item_no": "",
+        "len": 2,
+        "start": 41,
+        "end": 42
+      },
+      {
+        "srl": 22,
+        "name": "Age",
+        "block": "5.1",
+        "item_no": "",
+        "len": 3,
+        "start": 43,
+        "end": 45
+      },
+      {
+        "srl": 23,
+        "name": "Purpose of the trip for the member",
+        "block": "5.1",
+        "item_no": "",
+        "len": 1,
+        "start": 46,
+        "end": 46
+      },
+      {
+        "srl": 24,
+        "name": "Type of trip",
+        "block": "5.1",
+        "item_no": "",
+        "len": 1,
+        "start": 47,
+        "end": 47
+      },
+      {
+        "srl": 25,
+        "name": "Mode of travel- major (maximum distance travelled)",
+        "block": "5.1",
+        "item_no": "",
+        "len": 2,
+        "start": 48,
+        "end": 49
+      },
+      {
+        "srl": 26,
+        "name": "Mode of travel- minor (2nd maximum distance travelled)",
+        "block": "5.1",
+        "item_no": "",
+        "len": 2,
+        "start": 50,
+        "end": 51
+      },
+      {
+        "srl": 27,
+        "name": "Type of stay- major (maximum no. of nights spent)",
+        "block": "5.1",
+        "item_no": "",
+        "len": 2,
+        "start": 52,
+        "end": 53
+      },
+      {
+        "srl": 28,
+        "name": "Type of stay- minor (2nd maximum no. of nights spent)",
+        "block": "5.1",
+        "item_no": "",
+        "len": 2,
+        "start": 54,
+        "end": 55
+      },
+      {
+        "srl": 29,
+        "name": "No. of nights spent outside UPR (including journey)",
+        "block": "5.1",
+        "item_no": "",
+        "len": 3,
+        "start": 56,
+        "end": 58
+      },
+      {
+        "srl": 30,
+        "name": "Leading purpose for all the members performing the trip",
+        "block": "5.1",
+        "item_no": "",
+        "len": 1,
+        "start": 59,
+        "end": 59
+      },
+      {
+        "srl": 31,
+        "name": "Starting month",
+        "block": "5.1",
+        "item_no": "",
+        "len": 2,
+        "start": 60,
+        "end": 61
+      },
+      {
+        "srl": 32,
+        "name": "Main destination",
+        "block": "5.1",
+        "item_no": "",
+        "len": 1,
+        "start": 62,
+        "end": 62
+      },
+      {
+        "srl": 33,
+        "name": "Destination State code/state code of port of departure",
+        "block": "5.1",
+        "item_no": "",
+        "len": 2,
+        "start": 63,
+        "end": 64
+      },
+      {
+        "srl": 34,
+        "name": "Multiplier",
+        "block": "",
+        "item_no": "",
+        "len": 10,
+        "start": 65,
+        "end": 74
+      }
+    ]
+  },
+  "level_05": {
+    "title": "Sch. 21.1:   LEVEL - 05 (Block 5.2)",
+    "fields": [
+      {
+        "srl": 1,
+        "name": "Round",
+        "block": "1",
+        "item_no": "9",
+        "len": 2,
+        "start": 1,
+        "end": 2
+      },
+      {
+        "srl": 2,
+        "name": "Schedule",
+        "block": "1",
+        "item_no": "10",
+        "len": 3,
+        "start": 3,
+        "end": 5
+      },
+      {
+        "srl": 3,
+        "name": "FSU Serial No.",
+        "block": "1",
+        "item_no": "11",
+        "len": 5,
+        "start": 6,
+        "end": 10
+      },
+      {
+        "srl": 4,
+        "name": "Type of Sample",
+        "block": "1",
+        "item_no": "2",
+        "len": 1,
+        "start": 11,
+        "end": 11
+      },
+      {
+        "srl": 5,
+        "name": "Sector",
+        "block": "1",
+        "item_no": "1",
+        "len": 1,
+        "start": 12,
+        "end": 12
+      },
+      {
+        "srl": 6,
+        "name": "State",
+        "block": "1",
+        "item_no": "3",
+        "len": 2,
+        "start": 13,
+        "end": 14
+      },
+      {
+        "srl": 7,
+        "name": "NSS-Region",
+        "block": "",
+        "item_no": "",
+        "len": 3,
+        "start": 15,
+        "end": 17
+      },
+      {
+        "srl": 8,
+        "name": "District",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 18,
+        "end": 19
+      },
+      {
+        "srl": 9,
+        "name": "Stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 20,
+        "end": 21
+      },
+      {
+        "srl": 10,
+        "name": "Sub-stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 22,
+        "end": 23
+      },
+      {
+        "srl": 11,
+        "name": "Sub-Round",
+        "block": "",
+        "item_no": "",
+        "len": 1,
+        "start": 24,
+        "end": 24
+      },
+      {
+        "srl": 12,
+        "name": "FOD-Sub-Region",
+        "block": "",
+        "item_no": "",
+        "len": 4,
+        "start": 25,
+        "end": 28
+      },
+      {
+        "srl": 13,
+        "name": "Sample Sub-Unit (SU) Number:",
+        "block": "1",
+        "item_no": "8",
+        "len": 2,
+        "start": 29,
+        "end": 30
+      },
+      {
+        "srl": 14,
+        "name": "Sample Sub-Division Number",
+        "block": "1",
+        "item_no": "12",
+        "len": 1,
+        "start": 31,
+        "end": 31
+      },
+      {
+        "srl": 15,
+        "name": "Second-stage-stratum no.",
+        "block": "1",
+        "item_no": "13",
+        "len": 1,
+        "start": 32,
+        "end": 32
+      },
+      {
+        "srl": 17,
+        "name": "Sample hhld. No.",
+        "block": "1",
+        "item_no": "14",
+        "len": 2,
+        "start": 33,
+        "end": 34
+      },
+      {
+        "srl": 18,
+        "name": "level",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 35,
+        "end": 36
+      },
+      {
+        "srl": 19,
+        "name": "Srl. no. of the trip",
+        "block": "5.2",
+        "item_no": "",
+        "len": 2,
+        "start": 37,
+        "end": 38
+      },
+      {
+        "srl": 20,
+        "name": "No. of hhd members in the trip",
+        "block": "5.2",
+        "item_no": "",
+        "len": 2,
+        "start": 39,
+        "end": 40
+      },
+      {
+        "srl": 21,
+        "name": "Sl. No. of hhd member who was in that trip",
+        "block": "5.2",
+        "item_no": "",
+        "len": 2,
+        "start": 41,
+        "end": 42
+      },
+      {
+        "srl": 22,
+        "name": "Age",
+        "block": "5.2",
+        "item_no": "",
+        "len": 3,
+        "start": 43,
+        "end": 45
+      },
+      {
+        "srl": 23,
+        "name": "Purpose of the trip for the member",
+        "block": "5.2",
+        "item_no": "",
+        "len": 1,
+        "start": 46,
+        "end": 46
+      },
+      {
+        "srl": 24,
+        "name": "Type of trip",
+        "block": "5.2",
+        "item_no": "",
+        "len": 1,
+        "start": 47,
+        "end": 47
+      },
+      {
+        "srl": 25,
+        "name": "Mode of travel- major (maximum distance travelled)",
+        "block": "5.2",
+        "item_no": "",
+        "len": 2,
+        "start": 48,
+        "end": 49
+      },
+      {
+        "srl": 26,
+        "name": "Mode of travel- minor (2nd maximum distance travelled)",
+        "block": "5.2",
+        "item_no": "",
+        "len": 2,
+        "start": 50,
+        "end": 51
+      },
+      {
+        "srl": 27,
+        "name": "Type of stay- major (maximum no. of nights spent)",
+        "block": "5.2",
+        "item_no": "",
+        "len": 2,
+        "start": 52,
+        "end": 53
+      },
+      {
+        "srl": 28,
+        "name": "Type of stay- minor (2nd maximum no. of nights spent)",
+        "block": "5.2",
+        "item_no": "",
+        "len": 2,
+        "start": 54,
+        "end": 55
+      },
+      {
+        "srl": 29,
+        "name": "No. of nights spent outside UPR (including journey)",
+        "block": "5.2",
+        "item_no": "",
+        "len": 3,
+        "start": 56,
+        "end": 58
+      },
+      {
+        "srl": 30,
+        "name": "Leading purpose for all the members performing the trip",
+        "block": "5.2",
+        "item_no": "",
+        "len": 1,
+        "start": 59,
+        "end": 59
+      },
+      {
+        "srl": 31,
+        "name": "Starting month",
+        "block": "5.2",
+        "item_no": "",
+        "len": 2,
+        "start": 60,
+        "end": 61
+      },
+      {
+        "srl": 32,
+        "name": "Main destination",
+        "block": "5.2",
+        "item_no": "",
+        "len": 1,
+        "start": 62,
+        "end": 62
+      },
+      {
+        "srl": 33,
+        "name": "Destination State code/state code of port of departure",
+        "block": "5.2",
+        "item_no": "",
+        "len": 2,
+        "start": 63,
+        "end": 64
+      },
+      {
+        "srl": 34,
+        "name": "Multiplier",
+        "block": "",
+        "item_no": "",
+        "len": 10,
+        "start": 65,
+        "end": 74
+      }
+    ]
+  },
+  "level_06": {
+    "title": "Sch. 21.1 :   LEVEL - 06 (Block 6.1)",
+    "fields": [
+      {
+        "srl": 1,
+        "name": "Round",
+        "block": "1",
+        "item_no": "9",
+        "len": 2,
+        "start": 1,
+        "end": 2
+      },
+      {
+        "srl": 2,
+        "name": "Schedule",
+        "block": "1",
+        "item_no": "10",
+        "len": 3,
+        "start": 3,
+        "end": 5
+      },
+      {
+        "srl": 3,
+        "name": "FSU Serial No.",
+        "block": "1",
+        "item_no": "11",
+        "len": 5,
+        "start": 6,
+        "end": 10
+      },
+      {
+        "srl": 4,
+        "name": "Type of Sample",
+        "block": "1",
+        "item_no": "2",
+        "len": 1,
+        "start": 11,
+        "end": 11
+      },
+      {
+        "srl": 5,
+        "name": "Sector",
+        "block": "1",
+        "item_no": "1",
+        "len": 1,
+        "start": 12,
+        "end": 12
+      },
+      {
+        "srl": 6,
+        "name": "State",
+        "block": "1",
+        "item_no": "3",
+        "len": 2,
+        "start": 13,
+        "end": 14
+      },
+      {
+        "srl": 7,
+        "name": "NSS-Region",
+        "block": "",
+        "item_no": "",
+        "len": 3,
+        "start": 15,
+        "end": 17
+      },
+      {
+        "srl": 8,
+        "name": "District",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 18,
+        "end": 19
+      },
+      {
+        "srl": 9,
+        "name": "Stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 20,
+        "end": 21
+      },
+      {
+        "srl": 10,
+        "name": "Sub-stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 22,
+        "end": 23
+      },
+      {
+        "srl": 11,
+        "name": "Sub-Round",
+        "block": "",
+        "item_no": "",
+        "len": 1,
+        "start": 24,
+        "end": 24
+      },
+      {
+        "srl": 12,
+        "name": "FOD-Sub-Region",
+        "block": "",
+        "item_no": "",
+        "len": 4,
+        "start": 25,
+        "end": 28
+      },
+      {
+        "srl": 13,
+        "name": "Sample Sub-Unit (SU) Number:",
+        "block": "1",
+        "item_no": "8",
+        "len": 2,
+        "start": 29,
+        "end": 30
+      },
+      {
+        "srl": 14,
+        "name": "Sample Sub-Division Number",
+        "block": "1",
+        "item_no": "12",
+        "len": 1,
+        "start": 31,
+        "end": 31
+      },
+      {
+        "srl": 15,
+        "name": "Second-stage-stratum no.",
+        "block": "1",
+        "item_no": "13",
+        "len": 1,
+        "start": 32,
+        "end": 32
+      },
+      {
+        "srl": 16,
+        "name": "Sample hhld. No.",
+        "block": "1",
+        "item_no": "14",
+        "len": 2,
+        "start": 33,
+        "end": 34
+      },
+      {
+        "srl": 17,
+        "name": "level",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 35,
+        "end": 36
+      },
+      {
+        "srl": 18,
+        "name": "Trip serial no.",
+        "block": "6.1",
+        "item_no": "1",
+        "len": 2,
+        "start": 37,
+        "end": 38
+      },
+      {
+        "srl": 19,
+        "name": "Type of trip",
+        "block": "6.1",
+        "item_no": "2",
+        "len": 1,
+        "start": 39,
+        "end": 39
+      },
+      {
+        "srl": 20,
+        "name": "Package component (Rs.)",
+        "block": "6.1",
+        "item_no": "3",
+        "len": 7,
+        "start": 40,
+        "end": 46
+      },
+      {
+        "srl": 21,
+        "name": "Transport",
+        "block": "6.1",
+        "item_no": "3.1",
+        "len": 1,
+        "start": 47,
+        "end": 47
+      },
+      {
+        "srl": 22,
+        "name": "Accommodation",
+        "block": "6.1",
+        "item_no": "3.2",
+        "len": 1,
+        "start": 48,
+        "end": 48
+      },
+      {
+        "srl": 23,
+        "name": "Meals/food",
+        "block": "6.1",
+        "item_no": "3.3",
+        "len": 1,
+        "start": 49,
+        "end": 49
+      },
+      {
+        "srl": 24,
+        "name": "Sightseeing and entertainment",
+        "block": "6.1",
+        "item_no": "3.4",
+        "len": 1,
+        "start": 50,
+        "end": 50
+      },
+      {
+        "srl": 25,
+        "name": "Hotel",
+        "block": "6.1",
+        "item_no": "4.1",
+        "len": 7,
+        "start": 51,
+        "end": 57
+      },
+      {
+        "srl": 26,
+        "name": "Guest house",
+        "block": "6.1",
+        "item_no": "4.2",
+        "len": 7,
+        "start": 58,
+        "end": 64
+      },
+      {
+        "srl": 27,
+        "name": "Dharamshala",
+        "block": "6.1",
+        "item_no": "4.3",
+        "len": 7,
+        "start": 65,
+        "end": 71
+      },
+      {
+        "srl": 28,
+        "name": "Rented house",
+        "block": "6.1",
+        "item_no": "4.4",
+        "len": 7,
+        "start": 72,
+        "end": 78
+      },
+      {
+        "srl": 29,
+        "name": "Homestay",
+        "block": "6.1",
+        "item_no": "4.5",
+        "len": 7,
+        "start": 79,
+        "end": 85
+      },
+      {
+        "srl": 30,
+        "name": "Others",
+        "block": "6.1",
+        "item_no": "4.6",
+        "len": 7,
+        "start": 86,
+        "end": 92
+      },
+      {
+        "srl": 31,
+        "name": "Sub-total (4.1 to 4.6)",
+        "block": "6.1",
+        "item_no": "4.0",
+        "len": 7,
+        "start": 93,
+        "end": 99
+      },
+      {
+        "srl": 32,
+        "name": "Food and drink in accommodation unit",
+        "block": "6.1",
+        "item_no": "5.1",
+        "len": 7,
+        "start": 100,
+        "end": 106
+      },
+      {
+        "srl": 33,
+        "name": "Food and drink outside the accommodation unit and during journey and transit",
+        "block": "6.1",
+        "item_no": "5.2",
+        "len": 7,
+        "start": 107,
+        "end": 113
+      },
+      {
+        "srl": 34,
+        "name": "Sub-total (5.1 to 5.2)",
+        "block": "6.1",
+        "item_no": "5.0",
+        "len": 7,
+        "start": 114,
+        "end": 120
+      },
+      {
+        "srl": 35,
+        "name": "Railways",
+        "block": "6.1",
+        "item_no": "6.1",
+        "len": 7,
+        "start": 121,
+        "end": 127
+      },
+      {
+        "srl": 36,
+        "name": "public transport for road journey",
+        "block": "6.1",
+        "item_no": "6.2",
+        "len": 7,
+        "start": 128,
+        "end": 134
+      },
+      {
+        "srl": 37,
+        "name": "own road transport (including fuel, driver\u2019s cost, repair & maintenance, if any)",
+        "block": "6.1",
+        "item_no": "6.3",
+        "len": 7,
+        "start": 135,
+        "end": 141
+      },
+      {
+        "srl": 38,
+        "name": "rental/ hiring of vehicle(including cabs) for road journey",
+        "block": "6.1",
+        "item_no": "6.4",
+        "len": 7,
+        "start": 142,
+        "end": 148
+      },
+      {
+        "srl": 39,
+        "name": "Water transport",
+        "block": "6.1",
+        "item_no": "6.5",
+        "len": 7,
+        "start": 149,
+        "end": 155
+      },
+      {
+        "srl": 40,
+        "name": "Air transport",
+        "block": "6.1",
+        "item_no": "6.6",
+        "len": 7,
+        "start": 156,
+        "end": 162
+      },
+      {
+        "srl": 41,
+        "name": "travel agency services/tour operators",
+        "block": "6.1",
+        "item_no": "6.7",
+        "len": 7,
+        "start": 163,
+        "end": 169
+      },
+      {
+        "srl": 42,
+        "name": "others and supporting services",
+        "block": "6.1",
+        "item_no": "6.8",
+        "len": 7,
+        "start": 170,
+        "end": 176
+      },
+      {
+        "srl": 43,
+        "name": "sub-total (6.1 to 6.8)",
+        "block": "6.1",
+        "item_no": "6.0",
+        "len": 7,
+        "start": 177,
+        "end": 183
+      },
+      {
+        "srl": 44,
+        "name": "Clothing and garments",
+        "block": "6.1",
+        "item_no": "7.01",
+        "len": 7,
+        "start": 184,
+        "end": 190
+      },
+      {
+        "srl": 45,
+        "name": "processed food (for future consumption)",
+        "block": "6.1",
+        "item_no": "7.02",
+        "len": 7,
+        "start": 191,
+        "end": 197
+      },
+      {
+        "srl": 46,
+        "name": "alcohol & tobacco products (for future consumption)",
+        "block": "6.1",
+        "item_no": "7.03",
+        "len": 7,
+        "start": 198,
+        "end": 204
+      },
+      {
+        "srl": 47,
+        "name": "Travel related consumer goods",
+        "block": "6.1",
+        "item_no": "7.04",
+        "len": 7,
+        "start": 205,
+        "end": 211
+      },
+      {
+        "srl": 48,
+        "name": "Footwear",
+        "block": "6.1",
+        "item_no": "7.05",
+        "len": 7,
+        "start": 212,
+        "end": 218
+      },
+      {
+        "srl": 49,
+        "name": "Toiletries",
+        "block": "6.1",
+        "item_no": "7.06",
+        "len": 7,
+        "start": 219,
+        "end": 225
+      },
+      {
+        "srl": 50,
+        "name": "Gems & jewellery",
+        "block": "6.1",
+        "item_no": "7.07",
+        "len": 7,
+        "start": 226,
+        "end": 232
+      },
+      {
+        "srl": 51,
+        "name": "books, journals, magazines, stationery, etc.",
+        "block": "6.1",
+        "item_no": "7.08",
+        "len": 7,
+        "start": 233,
+        "end": 239
+      },
+      {
+        "srl": 52,
+        "name": "memento, souvenir, etc.",
+        "block": "6.1",
+        "item_no": "7.09",
+        "len": 7,
+        "start": 240,
+        "end": 246
+      },
+      {
+        "srl": 53,
+        "name": "others",
+        "block": "6.1",
+        "item_no": "7.10",
+        "len": 7,
+        "start": 247,
+        "end": 253
+      },
+      {
+        "srl": 54,
+        "name": "sub-total (7.01 to 7.10)",
+        "block": "6.1",
+        "item_no": "7.00",
+        "len": 7,
+        "start": 254,
+        "end": 260
+      },
+      {
+        "srl": 55,
+        "name": "cinema, theatre, amusement, personal care like sauna, massaging, etc.",
+        "block": "6.1",
+        "item_no": "8.1",
+        "len": 7,
+        "start": 261,
+        "end": 267
+      },
+      {
+        "srl": 56,
+        "name": "entry fee and other expenses to religious sites like darshan, offerings, priest fee, etc. (Donation, alms are not included).",
+        "block": "6.1",
+        "item_no": "8.2",
+        "len": 7,
+        "start": 268,
+        "end": 274
+      },
+      {
+        "srl": 57,
+        "name": "entry fee to and other expenses at cultural sites",
+        "block": "6.1",
+        "item_no": "8.3",
+        "len": 7,
+        "start": 275,
+        "end": 281
+      },
+      {
+        "srl": 58,
+        "name": "sporting activities",
+        "block": "6.1",
+        "item_no": "8.4",
+        "len": 7,
+        "start": 282,
+        "end": 288
+      },
+      {
+        "srl": 59,
+        "name": "medicine",
+        "block": "6.1",
+        "item_no": "8.5.1",
+        "len": 7,
+        "start": 289,
+        "end": 295
+      },
+      {
+        "srl": 60,
+        "name": "medical accessories",
+        "block": "6.1",
+        "item_no": "8.5.2",
+        "len": 7,
+        "start": 296,
+        "end": 302
+      },
+      {
+        "srl": 61,
+        "name": "other health related services",
+        "block": "6.1",
+        "item_no": "8.5.3",
+        "len": 7,
+        "start": 303,
+        "end": 309
+      },
+      {
+        "srl": 62,
+        "name": "sub-total [8.5.1 to 8.5.3]",
+        "block": "6.1",
+        "item_no": "8.5.0",
+        "len": 7,
+        "start": 310,
+        "end": 316
+      },
+      {
+        "srl": 63,
+        "name": "sub-total [8.1 + 8.2 + 8.3 + 8.4 + 8.5.0]",
+        "block": "6.1",
+        "item_no": "8.0",
+        "len": 7,
+        "start": 317,
+        "end": 323
+      },
+      {
+        "srl": 64,
+        "name": "Others",
+        "block": "6.1",
+        "item_no": "9",
+        "len": 7,
+        "start": 324,
+        "end": 330
+      },
+      {
+        "srl": 65,
+        "name": "sub-total (4.0+5.0+6.0+7.00+8.0+9)",
+        "block": "6.1",
+        "item_no": "10",
+        "len": 7,
+        "start": 331,
+        "end": 337
+      },
+      {
+        "srl": 66,
+        "name": "Total (3+10)",
+        "block": "6.1",
+        "item_no": "11",
+        "len": 8,
+        "start": 338,
+        "end": 345
+      },
+      {
+        "srl": 67,
+        "name": "whether any reimbursement/direct payment was made by Government organisation (like, Central Government, State Government, Local Bodies, Public Sector Undertakings, organisations wholly funded by government) for this trip",
+        "block": "6.1",
+        "item_no": "12",
+        "len": 1,
+        "start": 346,
+        "end": 346
+      },
+      {
+        "srl": 68,
+        "name": "amount (Rs.) paid/ reimbursed",
+        "block": "6.1",
+        "item_no": "13",
+        "len": 8,
+        "start": 347,
+        "end": 354
+      },
+      {
+        "srl": 69,
+        "name": "Whether any reimbursement/direct payment was made by other organisation/ institution/ non-household members but not covered in item 12",
+        "block": "6.1",
+        "item_no": "14",
+        "len": 1,
+        "start": 355,
+        "end": 355
+      },
+      {
+        "srl": 70,
+        "name": "amount (Rs.) paid/ reimbursed",
+        "block": "6.1",
+        "item_no": "15",
+        "len": 8,
+        "start": 356,
+        "end": 363
+      },
+      {
+        "srl": 71,
+        "name": "Booked accommodation/ transport/ food, etc., through tour operator using internet",
+        "block": "6.1",
+        "item_no": "16.1",
+        "len": 1,
+        "start": 364,
+        "end": 364
+      },
+      {
+        "srl": 72,
+        "name": "Booked accommodation/ transport/ food, etc. through tour operator without using internet",
+        "block": "6.1",
+        "item_no": "16.2",
+        "len": 1,
+        "start": 365,
+        "end": 365
+      },
+      {
+        "srl": 73,
+        "name": "Booked accommodation/ transport/ food, etc. directly using internet",
+        "block": "6.1",
+        "item_no": "16.3",
+        "len": 1,
+        "start": 366,
+        "end": 366
+      },
+      {
+        "srl": 74,
+        "name": "Booked accommodation/ transport/ food, etc. directly without using internet",
+        "block": "6.1",
+        "item_no": "16.4",
+        "len": 1,
+        "start": 367,
+        "end": 367
+      },
+      {
+        "srl": 75,
+        "name": "Services of tour guide",
+        "block": "6.1",
+        "item_no": "16.5",
+        "len": 1,
+        "start": 368,
+        "end": 368
+      },
+      {
+        "srl": 76,
+        "name": "Multiplier",
+        "block": "",
+        "item_no": "",
+        "len": 10,
+        "start": 369,
+        "end": 378
+      }
+    ]
+  },
+  "level_07": {
+    "title": "Sch. 21.1 :   LEVEL - 07 (Block 6.2)",
+    "fields": [
+      {
+        "srl": 1,
+        "name": "Round",
+        "block": "1",
+        "item_no": "9",
+        "len": 2,
+        "start": 1,
+        "end": 2
+      },
+      {
+        "srl": 2,
+        "name": "Schedule",
+        "block": "1",
+        "item_no": "10",
+        "len": 3,
+        "start": 3,
+        "end": 5
+      },
+      {
+        "srl": 3,
+        "name": "FSU Serial No.",
+        "block": "1",
+        "item_no": "11",
+        "len": 5,
+        "start": 6,
+        "end": 10
+      },
+      {
+        "srl": 4,
+        "name": "Type of Sample",
+        "block": "1",
+        "item_no": "2",
+        "len": 1,
+        "start": 11,
+        "end": 11
+      },
+      {
+        "srl": 5,
+        "name": "Sector",
+        "block": "1",
+        "item_no": "1",
+        "len": 1,
+        "start": 12,
+        "end": 12
+      },
+      {
+        "srl": 6,
+        "name": "State",
+        "block": "1",
+        "item_no": "3",
+        "len": 2,
+        "start": 13,
+        "end": 14
+      },
+      {
+        "srl": 7,
+        "name": "NSS-Region",
+        "block": "",
+        "item_no": "",
+        "len": 3,
+        "start": 15,
+        "end": 17
+      },
+      {
+        "srl": 8,
+        "name": "District",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 18,
+        "end": 19
+      },
+      {
+        "srl": 9,
+        "name": "Stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 20,
+        "end": 21
+      },
+      {
+        "srl": 10,
+        "name": "Sub-stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 22,
+        "end": 23
+      },
+      {
+        "srl": 11,
+        "name": "Sub-Round",
+        "block": "",
+        "item_no": "",
+        "len": 1,
+        "start": 24,
+        "end": 24
+      },
+      {
+        "srl": 12,
+        "name": "FOD-Sub-Region",
+        "block": "",
+        "item_no": "",
+        "len": 4,
+        "start": 25,
+        "end": 28
+      },
+      {
+        "srl": 13,
+        "name": "Sample Sub-Unit (SU) Number:",
+        "block": "1",
+        "item_no": "8",
+        "len": 2,
+        "start": 29,
+        "end": 30
+      },
+      {
+        "srl": 14,
+        "name": "Sample Sub-Division Number",
+        "block": "1",
+        "item_no": "12",
+        "len": 1,
+        "start": 31,
+        "end": 31
+      },
+      {
+        "srl": 15,
+        "name": "Second-stage-stratum no.",
+        "block": "1",
+        "item_no": "13",
+        "len": 1,
+        "start": 32,
+        "end": 32
+      },
+      {
+        "srl": 16,
+        "name": "Sample hhld. No.",
+        "block": "1",
+        "item_no": "14",
+        "len": 2,
+        "start": 33,
+        "end": 34
+      },
+      {
+        "srl": 17,
+        "name": "level",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 35,
+        "end": 36
+      },
+      {
+        "srl": 18,
+        "name": "Trip serial no.",
+        "block": "6.2",
+        "item_no": "1",
+        "len": 2,
+        "start": 37,
+        "end": 38
+      },
+      {
+        "srl": 19,
+        "name": "Type of trip",
+        "block": "6.2",
+        "item_no": "2",
+        "len": 1,
+        "start": 39,
+        "end": 39
+      },
+      {
+        "srl": 20,
+        "name": "Package component (Rs.)",
+        "block": "6.2",
+        "item_no": "3",
+        "len": 7,
+        "start": 40,
+        "end": 46
+      },
+      {
+        "srl": 21,
+        "name": "Transport",
+        "block": "6.2",
+        "item_no": "3.1",
+        "len": 1,
+        "start": 47,
+        "end": 47
+      },
+      {
+        "srl": 22,
+        "name": "Accommodation",
+        "block": "6.2",
+        "item_no": "3.2",
+        "len": 1,
+        "start": 48,
+        "end": 48
+      },
+      {
+        "srl": 23,
+        "name": "Meals/food",
+        "block": "6.2",
+        "item_no": "3.3",
+        "len": 1,
+        "start": 49,
+        "end": 49
+      },
+      {
+        "srl": 24,
+        "name": "Sightseeing and entertainment",
+        "block": "6.2",
+        "item_no": "3.4",
+        "len": 1,
+        "start": 50,
+        "end": 50
+      },
+      {
+        "srl": 25,
+        "name": "Hotel",
+        "block": "6.2",
+        "item_no": "4.1",
+        "len": 7,
+        "start": 51,
+        "end": 57
+      },
+      {
+        "srl": 26,
+        "name": "Guest house",
+        "block": "6.2",
+        "item_no": "4.2",
+        "len": 7,
+        "start": 58,
+        "end": 64
+      },
+      {
+        "srl": 27,
+        "name": "Dharamshala",
+        "block": "6.2",
+        "item_no": "4.3",
+        "len": 7,
+        "start": 65,
+        "end": 71
+      },
+      {
+        "srl": 28,
+        "name": "Rented house",
+        "block": "6.2",
+        "item_no": "4.4",
+        "len": 7,
+        "start": 72,
+        "end": 78
+      },
+      {
+        "srl": 29,
+        "name": "Homestay",
+        "block": "6.2",
+        "item_no": "4.5",
+        "len": 7,
+        "start": 79,
+        "end": 85
+      },
+      {
+        "srl": 30,
+        "name": "Others",
+        "block": "6.2",
+        "item_no": "4.6",
+        "len": 7,
+        "start": 86,
+        "end": 92
+      },
+      {
+        "srl": 31,
+        "name": "Sub-total (4.1 to 4.6)",
+        "block": "6.2",
+        "item_no": "4.0",
+        "len": 7,
+        "start": 93,
+        "end": 99
+      },
+      {
+        "srl": 32,
+        "name": "Food and drink in accommodation unit",
+        "block": "6.2",
+        "item_no": "5.1",
+        "len": 7,
+        "start": 100,
+        "end": 106
+      },
+      {
+        "srl": 33,
+        "name": "Food and drink outside the accommodation unit and during journey and transit",
+        "block": "6.2",
+        "item_no": "5.2",
+        "len": 7,
+        "start": 107,
+        "end": 113
+      },
+      {
+        "srl": 34,
+        "name": "Sub-total (5.1 to 5.2)",
+        "block": "6.2",
+        "item_no": "5.0",
+        "len": 7,
+        "start": 114,
+        "end": 120
+      },
+      {
+        "srl": 35,
+        "name": "Railways",
+        "block": "6.2",
+        "item_no": "6.1",
+        "len": 7,
+        "start": 121,
+        "end": 127
+      },
+      {
+        "srl": 36,
+        "name": "public transport for road journey",
+        "block": "6.2",
+        "item_no": "6.2",
+        "len": 7,
+        "start": 128,
+        "end": 134
+      },
+      {
+        "srl": 37,
+        "name": "own road transport (including fuel, driver\u2019s cost, repair & maintenance, if any)",
+        "block": "6.2",
+        "item_no": "6.3",
+        "len": 7,
+        "start": 135,
+        "end": 141
+      },
+      {
+        "srl": 38,
+        "name": "rental/ hiring of vehicle(including cabs) for road journey",
+        "block": "6.2",
+        "item_no": "6.4",
+        "len": 7,
+        "start": 142,
+        "end": 148
+      },
+      {
+        "srl": 39,
+        "name": "Water transport",
+        "block": "6.2",
+        "item_no": "6.5",
+        "len": 7,
+        "start": 149,
+        "end": 155
+      },
+      {
+        "srl": 40,
+        "name": "Air transport",
+        "block": "6.2",
+        "item_no": "6.6",
+        "len": 7,
+        "start": 156,
+        "end": 162
+      },
+      {
+        "srl": 41,
+        "name": "travel agency services/tour operators",
+        "block": "6.2",
+        "item_no": "6.7",
+        "len": 7,
+        "start": 163,
+        "end": 169
+      },
+      {
+        "srl": 42,
+        "name": "others and supporting services",
+        "block": "6.2",
+        "item_no": "6.8",
+        "len": 7,
+        "start": 170,
+        "end": 176
+      },
+      {
+        "srl": 43,
+        "name": "sub-total (6.1 to 6.8)",
+        "block": "6.2",
+        "item_no": "6.0",
+        "len": 7,
+        "start": 177,
+        "end": 183
+      },
+      {
+        "srl": 44,
+        "name": "Clothing and garments",
+        "block": "6.2",
+        "item_no": "7.01",
+        "len": 7,
+        "start": 184,
+        "end": 190
+      },
+      {
+        "srl": 45,
+        "name": "processed food (for future consumption)",
+        "block": "6.2",
+        "item_no": "7.02",
+        "len": 7,
+        "start": 191,
+        "end": 197
+      },
+      {
+        "srl": 46,
+        "name": "alcohol & tobacco products (for future consumption)",
+        "block": "6.2",
+        "item_no": "7.03",
+        "len": 7,
+        "start": 198,
+        "end": 204
+      },
+      {
+        "srl": 47,
+        "name": "Travel related consumer goods",
+        "block": "6.2",
+        "item_no": "7.04",
+        "len": 7,
+        "start": 205,
+        "end": 211
+      },
+      {
+        "srl": 48,
+        "name": "Footwear",
+        "block": "6.2",
+        "item_no": "7.05",
+        "len": 7,
+        "start": 212,
+        "end": 218
+      },
+      {
+        "srl": 49,
+        "name": "Toiletries",
+        "block": "6.2",
+        "item_no": "7.06",
+        "len": 7,
+        "start": 219,
+        "end": 225
+      },
+      {
+        "srl": 50,
+        "name": "Gems & jewellery",
+        "block": "6.2",
+        "item_no": "7.07",
+        "len": 7,
+        "start": 226,
+        "end": 232
+      },
+      {
+        "srl": 51,
+        "name": "books, journals, magazines, stationery, etc.",
+        "block": "6.2",
+        "item_no": "7.08",
+        "len": 7,
+        "start": 233,
+        "end": 239
+      },
+      {
+        "srl": 52,
+        "name": "memento, souvenir, etc.",
+        "block": "6.2",
+        "item_no": "7.09",
+        "len": 7,
+        "start": 240,
+        "end": 246
+      },
+      {
+        "srl": 53,
+        "name": "others",
+        "block": "6.2",
+        "item_no": "7.10",
+        "len": 7,
+        "start": 247,
+        "end": 253
+      },
+      {
+        "srl": 54,
+        "name": "sub-total (7.01 to 7.10)",
+        "block": "6.2",
+        "item_no": "7.00",
+        "len": 7,
+        "start": 254,
+        "end": 260
+      },
+      {
+        "srl": 55,
+        "name": "cinema, theatre, amusement, personal care like sauna, massaging, etc.",
+        "block": "6.2",
+        "item_no": "8.1",
+        "len": 7,
+        "start": 261,
+        "end": 267
+      },
+      {
+        "srl": 56,
+        "name": "entry fee and other expenses to religious sites like darshan, offerings, priest fee, etc. (Donation, alms are not included).",
+        "block": "6.2",
+        "item_no": "8.2",
+        "len": 7,
+        "start": 268,
+        "end": 274
+      },
+      {
+        "srl": 57,
+        "name": "entry fee to and other expenses at cultural sites",
+        "block": "6.2",
+        "item_no": "8.3",
+        "len": 7,
+        "start": 275,
+        "end": 281
+      },
+      {
+        "srl": 58,
+        "name": "sporting activities",
+        "block": "6.2",
+        "item_no": "8.4",
+        "len": 7,
+        "start": 282,
+        "end": 288
+      },
+      {
+        "srl": 59,
+        "name": "medicine",
+        "block": "6.2",
+        "item_no": "8.5.1",
+        "len": 7,
+        "start": 289,
+        "end": 295
+      },
+      {
+        "srl": 60,
+        "name": "medical accessories",
+        "block": "6.2",
+        "item_no": "8.5.2",
+        "len": 7,
+        "start": 296,
+        "end": 302
+      },
+      {
+        "srl": 61,
+        "name": "other health related services",
+        "block": "6.2",
+        "item_no": "8.5.3",
+        "len": 7,
+        "start": 303,
+        "end": 309
+      },
+      {
+        "srl": 62,
+        "name": "sub-total [8.5.1 to 8.5.3]",
+        "block": "6.2",
+        "item_no": "8.5.0",
+        "len": 7,
+        "start": 310,
+        "end": 316
+      },
+      {
+        "srl": 63,
+        "name": "sub-total [8.1 + 8.2 + 8.3 + 8.4 + 8.5.0]",
+        "block": "6.2",
+        "item_no": "8.0",
+        "len": 7,
+        "start": 317,
+        "end": 323
+      },
+      {
+        "srl": 64,
+        "name": "Others",
+        "block": "6.2",
+        "item_no": "9",
+        "len": 7,
+        "start": 324,
+        "end": 330
+      },
+      {
+        "srl": 65,
+        "name": "sub-total (4.0+5.0+6.0+7.00+8.0+9)",
+        "block": "6.2",
+        "item_no": "10",
+        "len": 7,
+        "start": 331,
+        "end": 337
+      },
+      {
+        "srl": 66,
+        "name": "Total (3+10)",
+        "block": "6.2",
+        "item_no": "11",
+        "len": 8,
+        "start": 338,
+        "end": 345
+      },
+      {
+        "srl": 67,
+        "name": "whether any reimbursement/direct payment was made by Government organisation (like, Central Government, State Government, Local Bodies, Public Sector Undertakings, organisations wholly funded by government) for this trip",
+        "block": "6.2",
+        "item_no": "12",
+        "len": 1,
+        "start": 346,
+        "end": 346
+      },
+      {
+        "srl": 68,
+        "name": "amount (Rs.) paid/ reimbursed",
+        "block": "6.2",
+        "item_no": "13",
+        "len": 8,
+        "start": 347,
+        "end": 354
+      },
+      {
+        "srl": 69,
+        "name": "Whether any reimbursement/direct payment was made by other organisation/ institution/ non-household members but not covered in item 12",
+        "block": "6.2",
+        "item_no": "14",
+        "len": 1,
+        "start": 355,
+        "end": 355
+      },
+      {
+        "srl": 70,
+        "name": "amount (Rs.) paid/ reimbursed",
+        "block": "6.2",
+        "item_no": "15",
+        "len": 8,
+        "start": 356,
+        "end": 363
+      },
+      {
+        "srl": 71,
+        "name": "Booked accommodation/ transport/ food, etc., through tour operator using internet",
+        "block": "6.2",
+        "item_no": "16.1",
+        "len": 1,
+        "start": 364,
+        "end": 364
+      },
+      {
+        "srl": 72,
+        "name": "Booked accommodation/ transport/ food, etc. through tour operator without using internet",
+        "block": "6.2",
+        "item_no": "16.2",
+        "len": 1,
+        "start": 365,
+        "end": 365
+      },
+      {
+        "srl": 73,
+        "name": "Booked accommodation/ transport/ food, etc. directly using internet",
+        "block": "6.2",
+        "item_no": "16.3",
+        "len": 1,
+        "start": 366,
+        "end": 366
+      },
+      {
+        "srl": 74,
+        "name": "Booked accommodation/ transport/ food, etc. directly without using internet",
+        "block": "6.2",
+        "item_no": "16.4",
+        "len": 1,
+        "start": 367,
+        "end": 367
+      },
+      {
+        "srl": 75,
+        "name": "Services of tour guide",
+        "block": "6.2",
+        "item_no": "16.5",
+        "len": 1,
+        "start": 368,
+        "end": 368
+      },
+      {
+        "srl": 76,
+        "name": "Multiplier",
+        "block": "",
+        "item_no": "",
+        "len": 10,
+        "start": 369,
+        "end": 378
+      }
+    ]
+  },
+  "level_08": {
+    "title": "Sch. 21.1 :   LEVEL - 08 (Block 7)",
+    "fields": [
+      {
+        "srl": 1,
+        "name": "Round",
+        "block": "1",
+        "item_no": "9",
+        "len": 2,
+        "start": 1,
+        "end": 2
+      },
+      {
+        "srl": 2,
+        "name": "Schedule",
+        "block": "1",
+        "item_no": "10",
+        "len": 3,
+        "start": 3,
+        "end": 5
+      },
+      {
+        "srl": 3,
+        "name": "FSU Serial No.",
+        "block": "1",
+        "item_no": "11",
+        "len": 5,
+        "start": 6,
+        "end": 10
+      },
+      {
+        "srl": 4,
+        "name": "Type of Sample",
+        "block": "1",
+        "item_no": "2",
+        "len": 1,
+        "start": 11,
+        "end": 11
+      },
+      {
+        "srl": 5,
+        "name": "Sector",
+        "block": "1",
+        "item_no": "1",
+        "len": 1,
+        "start": 12,
+        "end": 12
+      },
+      {
+        "srl": 6,
+        "name": "State",
+        "block": "1",
+        "item_no": "3",
+        "len": 2,
+        "start": 13,
+        "end": 14
+      },
+      {
+        "srl": 7,
+        "name": "NSS-Region",
+        "block": "",
+        "item_no": "",
+        "len": 3,
+        "start": 15,
+        "end": 17
+      },
+      {
+        "srl": 8,
+        "name": "District",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 18,
+        "end": 19
+      },
+      {
+        "srl": 9,
+        "name": "Stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 20,
+        "end": 21
+      },
+      {
+        "srl": 10,
+        "name": "Sub-stratum",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 22,
+        "end": 23
+      },
+      {
+        "srl": 11,
+        "name": "Sub-Round",
+        "block": "",
+        "item_no": "",
+        "len": 1,
+        "start": 24,
+        "end": 24
+      },
+      {
+        "srl": 12,
+        "name": "FOD-Sub-Region",
+        "block": "",
+        "item_no": "",
+        "len": 4,
+        "start": 25,
+        "end": 28
+      },
+      {
+        "srl": 13,
+        "name": "Sample Sub-Unit (SU) Number:",
+        "block": "1",
+        "item_no": "8",
+        "len": 2,
+        "start": 29,
+        "end": 30
+      },
+      {
+        "srl": 14,
+        "name": "Sample Sub-Division Number",
+        "block": "1",
+        "item_no": "12",
+        "len": 1,
+        "start": 31,
+        "end": 31
+      },
+      {
+        "srl": 15,
+        "name": "Second-stage-stratum no.",
+        "block": "1",
+        "item_no": "13",
+        "len": 1,
+        "start": 32,
+        "end": 32
+      },
+      {
+        "srl": 16,
+        "name": "Sample hhld. No.",
+        "block": "1",
+        "item_no": "14",
+        "len": 2,
+        "start": 33,
+        "end": 34
+      },
+      {
+        "srl": 17,
+        "name": "level",
+        "block": "",
+        "item_no": "",
+        "len": 2,
+        "start": 35,
+        "end": 36
+      },
+      {
+        "srl": 18,
+        "name": "Srl. no. of the trip",
+        "block": "7",
+        "item_no": "",
+        "len": 2,
+        "start": 37,
+        "end": 38
+      },
+      {
+        "srl": 19,
+        "name": "No. of hhd members in the trip",
+        "block": "7",
+        "item_no": "",
+        "len": 2,
+        "start": 39,
+        "end": 40
+      },
+      {
+        "srl": 20,
+        "name": "Leading purpose for all the members performing the trip",
+        "block": "7",
+        "item_no": "",
+        "len": 1,
+        "start": 41,
+        "end": 41
+      },
+      {
+        "srl": 21,
+        "name": "Package(Rs.)",
+        "block": "7",
+        "item_no": "",
+        "len": 7,
+        "start": 42,
+        "end": 48
+      },
+      {
+        "srl": 22,
+        "name": "Accommodation(Rs.)",
+        "block": "7",
+        "item_no": "",
+        "len": 7,
+        "start": 49,
+        "end": 55
+      },
+      {
+        "srl": 23,
+        "name": "Food and drink(Rs.)",
+        "block": "7",
+        "item_no": "",
+        "len": 7,
+        "start": 56,
+        "end": 62
+      },
+      {
+        "srl": 24,
+        "name": "Transport(Rs.)",
+        "block": "7",
+        "item_no": "",
+        "len": 7,
+        "start": 63,
+        "end": 69
+      },
+      {
+        "srl": 25,
+        "name": "Shopping(Rs.)",
+        "block": "7",
+        "item_no": "",
+        "len": 7,
+        "start": 70,
+        "end": 76
+      },
+      {
+        "srl": 26,
+        "name": "recreation, religious, cultural and sporting",
+        "block": "7",
+        "item_no": "",
+        "len": 7,
+        "start": 77,
+        "end": 83
+      },
+      {
+        "srl": 27,
+        "name": "health related (medicine, medical accessories, other health related services)",
+        "block": "7",
+        "item_no": "",
+        "len": 7,
+        "start": 84,
+        "end": 90
+      },
+      {
+        "srl": 28,
+        "name": "others",
+        "block": "7",
+        "item_no": "",
+        "len": 7,
+        "start": 91,
+        "end": 97
+      },
+      {
+        "srl": 29,
+        "name": "subtotal(col.5 to col.11)",
+        "block": "7",
+        "item_no": "",
+        "len": 7,
+        "start": 98,
+        "end": 104
+      },
+      {
+        "srl": 30,
+        "name": "total(col. 4+ col. 12)",
+        "block": "7",
+        "item_no": "",
+        "len": 7,
+        "start": 105,
+        "end": 111
+      },
+      {
+        "srl": 31,
+        "name": "Whether Booked accommodation/ transport/ food, etc., through tour operator using internet",
+        "block": "7",
+        "item_no": "",
+        "len": 1,
+        "start": 112,
+        "end": 112
+      },
+      {
+        "srl": 32,
+        "name": "Whether Booked accommodation/ transport/ food, etc. through tour operator without using internet",
+        "block": "7",
+        "item_no": "",
+        "len": 1,
+        "start": 113,
+        "end": 113
+      },
+      {
+        "srl": 33,
+        "name": "Whether Booked accommodation/ transport/ food, etc. directly using internet",
+        "block": "7",
+        "item_no": "",
+        "len": 1,
+        "start": 114,
+        "end": 114
+      },
+      {
+        "srl": 34,
+        "name": "WhetherBooked accommodation/ transport/ food, etc. directly without using internet",
+        "block": "7",
+        "item_no": "",
+        "len": 1,
+        "start": 115,
+        "end": 115
+      },
+      {
+        "srl": 35,
+        "name": "Whether Services of tour guide were used",
+        "block": "7",
+        "item_no": "",
+        "len": 1,
+        "start": 116,
+        "end": 116
+      },
+      {
+        "srl": 36,
+        "name": "Multiplier",
+        "block": "",
+        "item_no": "",
+        "len": 10,
+        "start": 117,
+        "end": 126
+      }
+    ]
+  }
+}

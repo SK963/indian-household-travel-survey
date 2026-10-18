@@ -1,0 +1,27 @@
+Domain,Indicator,Rural,Urban,All-India
+Worker Commute,Two-Wheeler Primary Mode Share,37.1%,52.3%,42.6%
+Worker Commute,Walking Share,36.6%,13.5%,28.3%
+Worker Commute,Bicycle Share,13.4%,5.8%,10.7%
+Worker Commute,Urban Mass Transit (Metro/Suburban/Tram),0.4%,5.0%,2.1%
+Worker Commute,Average Commute Duration,23 min,27 min,25 min
+Worker Commute,Commute Reached in <= 30 mins,86.1%,79.3%,83.4%
+Worker Commute,Peak Morning Departure Rush (8-10 AM),54.4%,59.8%,56.5%
+Worker Commute,Average Monthly Commute Spend,₹612,"₹1,044",₹785
+Worker Commute,Male Worker Monthly Commute Spend,₹674,"₹1,076",₹835
+Worker Commute,Female Worker Monthly Commute Spend,₹307,₹884,₹533
+Student Commute,Walking Primary Mode Share (Age 6+),N/A,N/A,37.0%
+Student Commute,Walking Primary Share (Age 6-14),N/A,N/A,47.3%
+Student Commute,Bus Primary Mode Share (Age 6+),N/A,N/A,29.5%
+Student Commute,Bicycle Primary Share (Age 15-29),N/A,N/A,21.4%
+Student Commute,Average Commute Duration,23 min,22 min,23 min
+Student Commute,Commute Reached in <= 30 mins,86.6%,89.6%,87.6%
+Student Commute,Peak Departure Window (8-9 AM),N/A,N/A,35.7%
+Student Commute,Average Monthly Commute Spend,₹361,₹617,₹443
+Overnight Travel,Bus Share of Overnight Trips,N/A,N/A,55.8%
+Overnight Travel,Railways Share of Overnight Trips,14.0%,22.7%,17.7%
+Overnight Travel,Combined Public Transit (Bus+Rail),N/A,N/A,73.5%
+Overnight Travel,Social & Religious Purpose Share,69.7%,70.9%,70.2%
+Overnight Travel,"Culture, Leisure & Tourism Share",6.2%,9.3%,7.4%
+Overnight Travel,Sample Mean Spend per Special Trip,N/A,N/A,"₹18,784"
+Daily Short Trips,Two-Wheeler Primary Share,N/A,N/A,32.2%
+Daily Short Trips,Walking Share,N/A,N/A,24.9%

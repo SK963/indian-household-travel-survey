@@ -1,0 +1,26 @@
+BLOCK-07,,,,
+BLOCK,COL_ITEM,VARIABLE_NAME,CODE,CODE_DESCRIPTION
+BLOCK_07,COL_03,Leading purpose for all the members performing the trip,1,business
+BLOCK_07,COL_03,Leading purpose for all the members performing the trip,2,"holidaying,leisure and recreation"
+BLOCK_07,COL_03,Leading purpose for all the members performing the trip,3,"social(including visiting friends and relatives,attending marriages, etc.)"
+BLOCK_07,COL_03,Leading purpose for all the members performing the trip,4,pilgrimage and religious activities 
+BLOCK_07,COL_03,Leading purpose for all the members performing the trip,5,education and training
+BLOCK_07,COL_03,Leading purpose for all the members performing the trip,6,health and medical
+BLOCK_07,COL_03,Leading purpose for all the members performing the trip,7,shopping
+BLOCK_07,COL_03,Leading purpose for all the members performing the trip,9,others
+BLOCK_07,COL_14,"Whether booked accommodation/ transport/ food, etc.
+through tour operator using internet",1,yes
+BLOCK_07,COL_14,"Whether booked accommodation/ transport/ food, etc.
+through tour operator using internet",2,no
+BLOCK_07,COL_15,"Whether booked accommodation/ transport/ food, etc.through tour operator without using internet",1,yes
+BLOCK_07,COL_15,"Whether booked accommodation/ transport/ food, etc.through tour operator without using internet",2,no
+BLOCK_07,COL_16,"Whether booked accommodation/ transport/ food, etc.
+directly using internet",1,yes
+BLOCK_07,COL_16,"Whether booked accommodation/ transport/ food, etc.
+directly using internet",2,no
+BLOCK_07,COL_17,"Whether booked accommodation/ transport/ food, etc.
+directly without using internet ",1,yes
+BLOCK_07,COL_17,"Whether booked accommodation/ transport/ food, etc.
+directly without using internet ",2,no
+BLOCK_07,COL_18,Whether services of tour guide were used,1,yes
+BLOCK_07,COL_18,Whether services of tour guide were used,2,no

@@ -1,0 +1,13 @@
+BLOCK-01,,,,
+BLOCK,COL_ITEM,VARIABLE_NAME,CODE,CODE_DESCRIPTION
+BLOCK_01,ITM_01,Sector,1,Rural
+BLOCK_01,ITM_01,Sector,2,Urban
+BLOCK_01,ITM_02,Type Of Sample,1,Central
+BLOCK_01,ITM_02,Type Of Sample,2,State
+BLOCK_01,ITM_15,Survey Code,1,Original
+BLOCK_01,ITM_15,Survey Code,2,Substitute 
+BLOCK_01,ITM_15,Survey Code,3,Casualty
+BLOCK_01,ITM_16,Reason For Substitution/Casualty Of Original Household,1,Informant Busy 
+BLOCK_01,ITM_16,Reason For Substitution/Casualty Of Original Household,2,Members Away From Home 
+BLOCK_01,ITM_16,Reason For Substitution/Casualty Of Original Household,3,Informant Non-Cooperative 
+BLOCK_01,ITM_16,Reason For Substitution/Casualty Of Original Household,9,Others 

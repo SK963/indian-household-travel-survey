@@ -1,0 +1,104 @@
+BLOCK-5.2,,,,
+BLOCK,COL_ITEM,VARIABLE_NAME,CODE,CODE_DESCRIPTION
+BLOCK_5.2,COL_05,Purpose of the trip for the member performing the trip,1,business
+BLOCK_5.2,COL_05,Purpose of the trip for the member performing the trip,2,"holidaying,leisure and recreation"
+BLOCK_5.2,COL_05,Purpose of the trip for the member performing the trip,3,"social(including visiting friends and relatives,attending marriages, etc.)"
+BLOCK_5.2,COL_05,Purpose of the trip for the member performing the trip,4,pilgrimage and religious activities 
+BLOCK_5.2,COL_05,Purpose of the trip for the member performing the trip,5,education and training
+BLOCK_5.2,COL_05,Purpose of the trip for the member performing the trip,6,health and medical
+BLOCK_5.2,COL_05,Purpose of the trip for the member performing the trip,7,shopping
+BLOCK_5.2,COL_05,Purpose of the trip for the member performing the trip,9,others
+BLOCK_5.2,COL_06,Type of trip,1,package
+BLOCK_5.2,COL_07,Type of trip,2,non-package
+BLOCK_5.2,COL_07,Mode of travel- major,01,on foot
+BLOCK_5.2,COL_07,Mode of travel- major,02,bus
+BLOCK_5.2,COL_07,Mode of travel- major,03,train(railways)
+BLOCK_5.2,COL_07,Mode of travel- major,04,ship/boat
+BLOCK_5.2,COL_07,Mode of travel- major,05,air
+BLOCK_5.2,COL_07,Mode of travel- major,06,own transport: motorised
+BLOCK_5.2,COL_07,Mode of travel- major,07,own transport: non-motorised
+BLOCK_5.2,COL_07,Mode of travel- major,08,"transport equipment,rental(hired transport): motorised"
+BLOCK_5.2,COL_07,Mode of travel- major,10,"transport equipment,rental(hired transport): non-motorised"
+BLOCK_5.2,COL_07,Mode of travel- major,19,others
+BLOCK_5.2,COL_08,Mode of travel- minor,01,on foot
+BLOCK_5.2,COL_08,Mode of travel- minor,02,bus
+BLOCK_5.2,COL_08,Mode of travel- minor,03,train(railways)
+BLOCK_5.2,COL_08,Mode of travel- minor,04,ship/boat
+BLOCK_5.2,COL_08,Mode of travel- minor,05,air
+BLOCK_5.2,COL_08,Mode of travel- minor,06,own transport: motorised
+BLOCK_5.2,COL_08,Mode of travel- minor,07,own transport: non-motorised
+BLOCK_5.2,COL_08,Mode of travel- minor,08,"transport equipment,rental(hired transport): motorised"
+BLOCK_5.2,COL_08,Mode of travel- minor,10,"transport equipment,rental(hired transport): non-motorised"
+BLOCK_5.2,COL_08,Mode of travel- minor,19,others
+BLOCK_5.2,COL_09,Type of stay- major(commercial ),01,hotel
+BLOCK_5.2,COL_09,Type of stay- major(commercial ),02,guest house
+BLOCK_5.2,COL_09,Type of stay- major(commercial ),03,dharamshala
+BLOCK_5.2,COL_09,Type of stay- major(commercial ),04,rented house
+BLOCK_5.2,COL_09,Type of stay- major(commercial ),05,homestay
+BLOCK_5.2,COL_09,Type of stay- major(commercial ),09,others
+BLOCK_5.2,COL_09,Type of stay- major(non-commercial ),11,friends and relatives
+BLOCK_5.2,COL_09,Type of stay- major(non-commercial ),19,others
+BLOCK_5.2,COL_10,Type of stay- minor(commercial ),01,hotel
+BLOCK_5.2,COL_10,Type of stay- minor(commercial ),02,guest house
+BLOCK_5.2,COL_10,Type of stay- minor(commercial ),03,dharamshala
+BLOCK_5.2,COL_10,Type of stay- minor(commercial ),04,rented house
+BLOCK_5.2,COL_10,Type of stay- minor(commercial ),05,homestay
+BLOCK_5.2,COL_10,Type of stay- minor(commercial ),09,others
+BLOCK_5.2,COL_10,Type of stay- minor(non-commercial ),11,friends and relatives
+BLOCK_5.2,COL_10,Type of stay- minor(non-commercial ),19,others
+BLOCK_5.2,COL_12,Leading purpose for all the members performing the trip,1,business
+BLOCK_5.2,COL_12,Leading purpose for all the members performing the trip,3,"social(incl. visiting friends and relatives,attending marriage)"
+BLOCK_5.2,COL_12,Leading purpose for all the members performing the trip,5,education and training
+BLOCK_5.2,COL_12,Leading purpose for all the members performing the trip,9,others
+BLOCK_5.2,COL_13,Starting month,01,January
+BLOCK_5.2,COL_13,Starting month,02,February
+BLOCK_5.2,COL_13,Starting month,03,March
+BLOCK_5.2,COL_13,Starting month,04,April
+BLOCK_5.2,COL_13,Starting month,05,May
+BLOCK_5.2,COL_13,Starting month,06,June
+BLOCK_5.2,COL_13,Starting month,07,July
+BLOCK_5.2,COL_13,Starting month,08,August
+BLOCK_5.2,COL_13,Starting month,09,September
+BLOCK_5.2,COL_13,Starting month,10,October
+BLOCK_5.2,COL_13,Starting month,11,November
+BLOCK_5.2,COL_13,Starting month,12,December
+BLOCK_5.2,COL_14,Main destination,1,destination within the district
+BLOCK_5.2,COL_14,Main destination,2,destination outside the district but within the state
+BLOCK_5.2,COL_14,Main destination,3,destination outside the state but within the country
+BLOCK_5.2,COL_14,Main destination,4,final port of departure in Indian Territory for International trip
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,28,Andhra Pradesh 
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,12,Arunachal Pradesh
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,18,Assam
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,10,Bihar 
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,22,Chhattisgarh
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,07,Delhi
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,30,Goa 
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,24,Gujarat 
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,06,Haryana
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,02,Himachal Pradesh 
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,01,Jammu & Kashmir
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,20,Jharkhand
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,29,Karnataka
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,32,Kerala
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,23,Madhya Pradesh 
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,27,Maharashtra
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,14,Manipur
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,17,Meghalaya
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,15,Mizoram
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,13,Nagaland
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,21,Odisha
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,03,Punjab
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,08,Rajasthan
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,11,Sikkim 
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,33,Tamil Nadu 
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,36,Telangana
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,16,Tripura
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,09,Uttar Pradesh
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,05,Uttarakhand
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,19,West Bengal
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,35,A & N Islands
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,04,Chandigarh
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,25,Dadra & Nagar Haveli and Daman & Diu
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,37,Ladakh
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,31,Lakshadweep
+BLOCK_5.2,COL_15,Destination State code/state code of port of departure,34,Puducherry
