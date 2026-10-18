@@ -903,6 +903,5 @@ st.markdown("""
 <div style="text-align: center; color: #64748b; font-size: 0.85rem; padding-bottom: 20px;">
     <b>National Household Travel Survey (NHTS) & Domestic Tourism Expenditure Survey (DTES)</b><br>
     NSS 80th Round (July 2025 – June 2026) | Household Survey Division (HSD), National Statistics Office (NSO), MoSPI<br>
-    Built with Streamlit & Plotly • Complete microdata unit-level dataset validated against Schedule 21.1
 </div>
 """, unsafe_allow_html=True)
