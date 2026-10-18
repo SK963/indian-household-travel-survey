@@ -11,7 +11,7 @@ from pathlib import Path
 # -----------------------------------------------------------------------------
 st.set_page_config(
     page_title="National Household Travel & Domestic Tourism Survey (NHTS 2025-26)",
-    page_icon="🇮🇳",
+    page_icon=None,
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -150,7 +150,7 @@ with st.sidebar:
     st.caption("National Statistics Office (NSO) | MoSPI")
     
     st.markdown("---")
-    st.markdown("#### 🎯 Filter & View Options")
+    st.markdown("#### Filter & View Options")
     sector_filter = st.radio(
         "Geography / Sector Scope:",
         ["All-India (Rural + Urban)", "Rural Sector", "Urban Sector"],
@@ -158,13 +158,13 @@ with st.sidebar:
     )
     
     st.markdown("---")
-    st.markdown("#### 📁 Official Reference Documents")
+    st.markdown("#### Official Reference Documents")
     st.markdown("""
-    * [📄 NHTS Factsheet / Report](National%20Household%20Travel%20Survey%20Report.pdf)
-    * [📘 Field Instructions (Vol. I)](docs/DTES_Vol_I.pdf)
-    * [📋 Survey Schedules (Vol. II)](docs/DTES_Vol_II.pdf)
-    * [📊 Estimation Procedures](docs/Estimation_Procedure_DTES.pdf)
-    * [📑 Variable Layouts (Excel)](docs/Data_Layout80211.xlsx)
+    * [NHTS Factsheet / Report](National%20Household%20Travel%20Survey%20Report.pdf)
+    * [Field Instructions (Vol. I)](docs/DTES_Vol_I.pdf)
+    * [Survey Schedules (Vol. II)](docs/DTES_Vol_II.pdf)
+    * [Estimation Procedures](docs/Estimation_Procedure_DTES.pdf)
+    * [Variable Layouts (Excel)](docs/Data_Layout80211.xlsx)
     """)
     
     st.markdown("---")
@@ -200,7 +200,7 @@ with col1:
     <div class="metric-card">
         <div class="metric-label">Worker 2-Wheeler Share</div>
         <div class="metric-value">42.6%</div>
-        <div class="metric-sub">↑ 52.3% in Urban Areas</div>
+        <div class="metric-sub">52.3% in Urban Areas</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -246,21 +246,21 @@ st.markdown("<br>", unsafe_allow_html=True)
 # TAB NAVIGATION
 # -----------------------------------------------------------------------------
 tabs = st.tabs([
-    "📊 Executive Summary",
-    "💼 Workforce Mobility & Gender Gap",
-    "🎓 Student Commuting",
-    "⏱️ Durations & Peak Hours",
-    "💰 Monthly Costs & Disparities",
-    "🧳 Domestic Overnight Tourism",
-    "🚲 Daily Short Trips",
-    "🔍 Microdata Explorer"
+    " Executive Summary",
+    " Workforce Mobility & Gender Gap",
+    " Student Commuting",
+    " Durations & Peak Hours",
+    " Monthly Costs & Disparities",
+    " Domestic Overnight Tourism",
+    " Daily Short Trips",
+    " Microdata Explorer"
 ])
 
 # =============================================================================
 # TAB 1: EXECUTIVE SUMMARY
 # =============================================================================
 with tabs[0]:
-    st.markdown("### 🌟 Headline National Findings")
+    st.markdown("### Headline National Findings")
     
     col_a, col_b = st.columns([3, 2])
     with col_a:
@@ -294,7 +294,7 @@ with tabs[0]:
             st.plotly_chart(fig_overview, use_container_width=True)
             
     with col_b:
-        st.markdown("#### 📋 Core Indicators Scorecard")
+        st.markdown("#### Core Indicators Scorecard")
         if "indicators" in DATA:
             st.dataframe(
                 DATA["indicators"][["Domain", "Indicator", "All-India"]],
@@ -307,7 +307,7 @@ with tabs[0]:
 # TAB 2: WORKFORCE MOBILITY & GENDER GAP
 # =============================================================================
 with tabs[1]:
-    st.markdown("### 💼 Workforce Commuting & The Gender Mobility Divide")
+    st.markdown("### Workforce Commuting & The Gender Mobility Divide")
     
     col_w1, col_w2 = st.columns([3, 2])
     with col_w1:
@@ -349,7 +349,7 @@ with tabs[1]:
             st.plotly_chart(fig_wm, use_container_width=True)
             
     with col_w2:
-        st.markdown("#### 🚆 Urban Mass Transit Surges")
+        st.markdown("#### Urban Mass Transit Surges")
         transit_df = pd.DataFrame({
             "State / Region": ["All-India (Urban)", "Delhi", "West Bengal", "Maharashtra"],
             "Mass Transit Share (%)": [5.0, 14.4, 16.5, 20.7]
@@ -376,7 +376,7 @@ with tabs[1]:
         """, unsafe_allow_html=True)
 
     st.markdown("---")
-    st.markdown("#### ⚖️ Gender Gap in Commute Trip Participation (Table 3)")
+    st.markdown("#### Gender Gap in Commute Trip Participation (Table 3)")
     
     col_g1, col_g2 = st.columns([3, 2])
     with col_g1:
@@ -415,7 +415,7 @@ with tabs[1]:
 # TAB 3: STUDENT COMMUTING
 # =============================================================================
 with tabs[2]:
-    st.markdown("### 🎓 Student Commuting Mobility (Age 6+)")
+    st.markdown("### Student Commuting Mobility (Age 6+)")
     
     col_s1, col_s2 = st.columns([3, 2])
     with col_s1:
@@ -433,7 +433,7 @@ with tabs[2]:
             st.plotly_chart(fig_stu, use_container_width=True)
             
     with col_s2:
-        st.markdown("#### 🚶 Mode Shift from School to College")
+        st.markdown("#### Mode Shift from School to College")
         st.markdown("""
         <div class="insight-box" style="border-left-color: #0ea5e9;">
             <b>Dramatic Travel Transition as Children Grow:</b>
@@ -450,7 +450,7 @@ with tabs[2]:
 # TAB 4: DURATIONS & PEAK HOURS
 # =============================================================================
 with tabs[3]:
-    st.markdown("### ⏱️ Commute Durations & Rush Hour Curves")
+    st.markdown("### Commute Durations & Rush Hour Curves")
     
     col_d1, col_d2 = st.columns(2)
     with col_d1:
@@ -470,7 +470,7 @@ with tabs[3]:
         fig_sdep.update_traces(line=dict(width=3), marker=dict(size=8))
         fig_sdep.update_layout(template="plotly_white", yaxis=dict(range=[0, 45]), height=380)
         st.plotly_chart(fig_sdep, use_container_width=True)
-        st.caption("⚡ **82.0%** of all students depart between 7:00 AM and 10:00 AM.")
+        st.caption(" **82.0%** of all students depart between 7:00 AM and 10:00 AM.")
         
     with col_d2:
         # Worker Departure Curve
@@ -494,13 +494,13 @@ with tabs[3]:
         fig_wdep.update_traces(line=dict(width=2.5), marker=dict(size=7))
         fig_wdep.update_layout(template="plotly_white", yaxis=dict(range=[0, 70]), height=380)
         st.plotly_chart(fig_wdep, use_container_width=True)
-        st.caption("⚡ **94.9%** of workers depart before 10:00 AM (56.5% between 8:00–10:00 AM).")
+        st.caption(" **94.9%** of workers depart before 10:00 AM (56.5% between 8:00–10:00 AM).")
 
 # =============================================================================
 # TAB 5: MONTHLY COSTS & DISPARITIES
 # =============================================================================
 with tabs[4]:
-    st.markdown("### 💰 Monthly Commuting Costs & The Gender Mobility Tax")
+    st.markdown("### Monthly Commuting Costs & The Gender Mobility Tax")
     
     col_c1, col_c2 = st.columns([3, 2])
     with col_c1:
@@ -534,7 +534,7 @@ with tabs[4]:
 # TAB 6: DOMESTIC OVERNIGHT TOURISM
 # =============================================================================
 with tabs[5]:
-    st.markdown("### 🧳 Domestic Overnight Tourism & Travel Patterns")
+    st.markdown("### Domestic Overnight Tourism & Travel Patterns")
     
     col_t1, col_t2 = st.columns(2)
     with col_t1:
@@ -580,7 +580,7 @@ with tabs[5]:
         st.plotly_chart(fig_op, use_container_width=True)
 
     st.markdown("---")
-    st.markdown("#### 🔬 Empirical Microdata Deep-Dive (Levels 04 & 06)")
+    st.markdown("#### Empirical Microdata Deep-Dive (Levels 04 & 06)")
     
     col_e1, col_e2 = st.columns(2)
     with col_e1:
@@ -596,7 +596,7 @@ with tabs[5]:
             fig_season.update_traces(line=dict(width=3), marker=dict(size=8))
             fig_season.update_layout(template="plotly_white", height=350)
             st.plotly_chart(fig_season, use_container_width=True)
-            st.caption("📅 Travel surges in **Feb** (auspicious pilgrimage season), **May** (summer school break), and **Aug/Oct** (festivals).")
+            st.caption(" Travel surges in **Feb** (auspicious pilgrimage season), **May** (summer school break), and **Aug/Oct** (festivals).")
             
     with col_e2:
         if "top_states" in DATA:
@@ -611,10 +611,10 @@ with tabs[5]:
             )
             fig_states.update_layout(template="plotly_white", height=350, yaxis=dict(autorange="reversed"), showlegend=False)
             st.plotly_chart(fig_states, use_container_width=True)
-            st.caption("🏛️ **Uttar Pradesh** leads overwhelmingly due to major pilgrimage centers (Varanasi, Ayodhya, Mathura, Prayagraj).")
+            st.caption(" **Uttar Pradesh** leads overwhelmingly due to major pilgrimage centers (Varanasi, Ayodhya, Mathura, Prayagraj).")
 
     if "spend_categories" in DATA:
-        st.markdown("#### 💵 Where Does the Domestic Traveler Spend? (Itemized Anatomy)")
+        st.markdown("#### Where Does the Domestic Traveler Spend? (Itemized Anatomy)")
         col_sp1, col_sp2 = st.columns([3, 2])
         with col_sp1:
             fig_spend = px.pie(
@@ -641,7 +641,7 @@ with tabs[5]:
 # TAB 7: DAILY SHORT TRIPS
 # =============================================================================
 with tabs[6]:
-    st.markdown("### 🚲 Daily Non-Work, Non-School Local Trips (Within 24 Hours)")
+    st.markdown("### Daily Non-Work, Non-School Local Trips (Within 24 Hours)")
     
     col_sh1, col_sh2 = st.columns([3, 2])
     with col_sh1:
@@ -666,13 +666,13 @@ with tabs[6]:
         if "daily_purposes" in DATA:
             st.markdown("#### Table (5): Purpose of Short Daily Trips")
             st.dataframe(DATA["daily_purposes"][["Rural+Urban (%)"]], use_container_width=True, height=360)
-            st.caption("🛒 Over **54%** of daily trips serve unpaid household domestic needs (errands, grocery, caregiving).")
+            st.caption(" Over **54%** of daily trips serve unpaid household domestic needs (errands, grocery, caregiving).")
 
 # =============================================================================
 # TAB 8: MICRODATA EXPLORER
 # =============================================================================
 with tabs[7]:
-    st.markdown("### 🔍 Interactive Microdata & Benchmark Dataset Explorer")
+    st.markdown("### Interactive Microdata & Benchmark Dataset Explorer")
     st.caption("Inspect and download the clean CSV tables generated from the NSS 80th Round survey.")
     
     selected_dataset = st.selectbox(
@@ -707,7 +707,7 @@ with tabs[7]:
         
         csv_bytes = df_target.to_csv(index=False).encode('utf-8')
         st.download_button(
-            label=f"⬇️ Download {selected_dataset} as CSV",
+            label=f"⬇ Download {selected_dataset} as CSV",
             data=csv_bytes,
             file_name=f"{key}.csv",
             mime="text/csv"
