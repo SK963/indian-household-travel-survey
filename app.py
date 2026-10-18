@@ -514,7 +514,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 # TAB NAVIGATION (MASTER VISUAL DASHBOARD FIRST)
 # -----------------------------------------------------------------------------
 tabs = st.tabs([
-    "Master Visual Dashboard",
+    "Summary Dashboard",
     "Executive Summary & Scorecard",
     "Workforce Mobility & Gender Gap",
     "Student Commuting",
@@ -526,13 +526,13 @@ tabs = st.tabs([
 ])
 
 # =============================================================================
-# TAB 0: MASTER VISUAL DASHBOARD (ALL PRIMARY CHARTS IN ONE SEAMLESS VIEW)
+# TAB 0: SUMMARY DASHBOARD (ALL PRIMARY CHARTS IN ONE SEAMLESS VIEW)
 # =============================================================================
 with tabs[0]:
     st.markdown("""
     <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 18px 24px; margin-bottom: 24px;">
         <h3 style="margin-top: 0; margin-bottom: 6px; color: #0f172a; font-weight: 800;">
-            Master Visual Dashboard: All Headline Charts at a Glance
+            Summary Dashboard: All Headline Charts at a Glance
         </h3>
         <p style="color: #64748b; font-size: 0.95rem; margin-bottom: 0;">
             This main page consolidates all primary visual benchmarks across workforce commuting, student education access, 
@@ -546,11 +546,11 @@ with tabs[0]:
     col_r1_a, col_r1_b = st.columns(2)
     with col_r1_a:
         fig_wm = build_worker_modes_fig()
-        if fig_wm: st.plotly_chart(fig_wm, use_container_width=True)
+        if fig_wm: st.plotly_chart(fig_wm, use_container_width=True, key="summary_worker_modes")
         st.caption("Key Insight: Two-wheelers carry 42.6% of Indian workers (52.3% urban). Walking & cycling account for ~39% combined.")
     with col_r1_b:
         fig_th = build_transit_hotspots_fig()
-        if fig_th: st.plotly_chart(fig_th, use_container_width=True)
+        if fig_th: st.plotly_chart(fig_th, use_container_width=True, key="summary_transit_hotspots")
         st.caption("Key Insight: Metro and suburban rail surge in Maharashtra (20.7%), West Bengal (16.5%), and Delhi (14.4%) vs 5.0% national urban avg.")
 
     # Visual Row 2: Student Commuting & Gender Participation Divide
@@ -558,11 +558,11 @@ with tabs[0]:
     col_r2_a, col_r2_b = st.columns(2)
     with col_r2_a:
         fig_sm = build_student_modes_fig()
-        if fig_sm: st.plotly_chart(fig_sm, use_container_width=True)
+        if fig_sm: st.plotly_chart(fig_sm, use_container_width=True, key="summary_student_modes")
         st.caption("Key Insight: Walking drops in half from 47.3% (age 6-14) to 22.2% (15-29), while bicycles double to 21.4% in college.")
     with col_r2_b:
         fig_gg = build_gender_gap_fig()
-        if fig_gg: st.plotly_chart(fig_gg, use_container_width=True)
+        if fig_gg: st.plotly_chart(fig_gg, use_container_width=True, key="summary_gender_gap")
         st.caption("Key Insight: Rural women have a 21.9% lower commute trip participation rate (37.7%) compared to men (59.6%).")
 
     # Visual Row 3: Peak Morning Rush Hour Curves
@@ -570,11 +570,11 @@ with tabs[0]:
     col_r3_a, col_r3_b = st.columns(2)
     with col_r3_a:
         fig_sd = build_student_departure_fig()
-        if fig_sd: st.plotly_chart(fig_sd, use_container_width=True)
+        if fig_sd: st.plotly_chart(fig_sd, use_container_width=True, key="summary_student_departure")
         st.caption("Key Insight: 82.0% of students depart between 7:00 and 10:00 AM, peaking sharply between 8:00 and 9:00 AM (35.7%).")
     with col_r3_b:
         fig_wd = build_worker_departure_fig()
-        if fig_wd: st.plotly_chart(fig_wd, use_container_width=True)
+        if fig_wd: st.plotly_chart(fig_wd, use_container_width=True, key="summary_worker_departure")
         st.caption("Key Insight: 94.9% of workers leave before 10:00 AM, with 56.5% departing during the 8:00-10:00 AM rush.")
 
     # Visual Row 4: Monthly Commute Spend & Daily Non-Work Trips
@@ -582,11 +582,11 @@ with tabs[0]:
     col_r4_a, col_r4_b = st.columns(2)
     with col_r4_a:
         fig_cc = build_commute_costs_fig()
-        if fig_cc: st.plotly_chart(fig_cc, use_container_width=True)
+        if fig_cc: st.plotly_chart(fig_cc, use_container_width=True, key="summary_commute_costs")
         st.caption("Key Insight: Male workers spend Rs. 835/mo vs Rs. 533/mo for female workers. Rural men spend more than double women (Rs. 674 vs Rs. 307).")
     with col_r4_b:
         fig_dm = build_daily_modes_fig()
-        if fig_dm: st.plotly_chart(fig_dm, use_container_width=True)
+        if fig_dm: st.plotly_chart(fig_dm, use_container_width=True, key="summary_daily_modes")
         st.caption("Key Insight: Two-wheelers (32.2%), walking (24.9%), and auto-rickshaws (18.9%) lead short within-day local mobility.")
 
     # Visual Row 5: Domestic Overnight Tourism Modes & Motivations
@@ -594,11 +594,11 @@ with tabs[0]:
     col_r5_a, col_r5_b = st.columns(2)
     with col_r5_a:
         fig_om = build_overnight_modes_fig()
-        if fig_om: st.plotly_chart(fig_om, use_container_width=True)
+        if fig_om: st.plotly_chart(fig_om, use_container_width=True, key="summary_overnight_modes")
         st.caption("Key Insight: Public transport anchors overnight travel: Buses (55.8%) and Railways (17.7%) carry 73.5% of all journeys.")
     with col_r5_b:
         fig_op = build_overnight_purposes_fig()
-        if fig_op: st.plotly_chart(fig_op, use_container_width=True)
+        if fig_op: st.plotly_chart(fig_op, use_container_width=True, key="summary_overnight_purposes")
         st.caption("Key Insight: Social visits and religious pilgrimages represent 70.2% of all domestic overnight travel.")
 
     # Visual Row 6: Tourism Seasonality & Top Destinations
@@ -606,11 +606,11 @@ with tabs[0]:
     col_r6_a, col_r6_b = st.columns(2)
     with col_r6_a:
         fig_se = build_seasonality_fig()
-        if fig_se: st.plotly_chart(fig_se, use_container_width=True)
+        if fig_se: st.plotly_chart(fig_se, use_container_width=True, key="summary_seasonality")
         st.caption("Key Insight: Domestic travel surges in February (pilgrimage season), May (summer holidays), and August-October (festive season).")
     with col_r6_b:
         fig_ts = build_top_states_fig()
-        if fig_ts: st.plotly_chart(fig_ts, use_container_width=True)
+        if fig_ts: st.plotly_chart(fig_ts, use_container_width=True, key="summary_top_states")
         st.caption("Key Insight: Uttar Pradesh leads nationwide due to massive pilgrimage hubs (Varanasi, Ayodhya, Mathura, Prayagraj).")
 
     # Visual Row 7: Expenditure Breakdown
@@ -618,7 +618,7 @@ with tabs[0]:
     col_r7_a, col_r7_b = st.columns([3, 2])
     with col_r7_a:
         fig_sc = build_spend_categories_fig()
-        if fig_sc: st.plotly_chart(fig_sc, use_container_width=True)
+        if fig_sc: st.plotly_chart(fig_sc, use_container_width=True, key="summary_spend_categories")
     with col_r7_b:
         st.markdown("""
         <div class="insight-box" style="margin-top: 30px;">
@@ -665,7 +665,7 @@ with tabs[1]:
                 color_discrete_sequence=["#3b82f6", "#f97316", "#10b981"]
             )
             fig_overview.update_layout(template="plotly_white", margin=dict(t=40, b=20, l=20, r=20), height=360)
-            st.plotly_chart(fig_overview, use_container_width=True)
+            st.plotly_chart(fig_overview, use_container_width=True, key="exec_worker_modes")
             
     with col_b:
         st.markdown("#### Core Indicators Scorecard")
@@ -686,12 +686,12 @@ with tabs[2]:
     col_w1, col_w2 = st.columns([3, 2])
     with col_w1:
         fig_wm = build_worker_modes_fig()
-        if fig_wm: st.plotly_chart(fig_wm, use_container_width=True)
+        if fig_wm: st.plotly_chart(fig_wm, use_container_width=True, key="tab_worker_modes")
             
     with col_w2:
         st.markdown("#### Urban Mass Transit Surges")
         fig_th = build_transit_hotspots_fig()
-        if fig_th: st.plotly_chart(fig_th, use_container_width=True)
+        if fig_th: st.plotly_chart(fig_th, use_container_width=True, key="tab_transit_hotspots")
         
         st.markdown("""
         <div style="background: #f0fdf4; border: 1px solid #bbf7d0; padding: 12px 16px; border-radius: 12px; font-size: 0.88rem;">
@@ -706,7 +706,7 @@ with tabs[2]:
     col_g1, col_g2 = st.columns([3, 2])
     with col_g1:
         fig_gg = build_gender_gap_fig()
-        if fig_gg: st.plotly_chart(fig_gg, use_container_width=True)
+        if fig_gg: st.plotly_chart(fig_gg, use_container_width=True, key="tab_gender_gap")
         
     with col_g2:
         st.markdown("""
@@ -729,7 +729,7 @@ with tabs[3]:
     col_s1, col_s2 = st.columns([3, 2])
     with col_s1:
         fig_sm = build_student_modes_fig()
-        if fig_sm: st.plotly_chart(fig_sm, use_container_width=True)
+        if fig_sm: st.plotly_chart(fig_sm, use_container_width=True, key="tab_student_modes")
             
     with col_s2:
         st.markdown("#### Mode Shift from School to College")
@@ -754,12 +754,12 @@ with tabs[4]:
     col_d1, col_d2 = st.columns(2)
     with col_d1:
         fig_sd = build_student_departure_fig()
-        if fig_sd: st.plotly_chart(fig_sd, use_container_width=True)
+        if fig_sd: st.plotly_chart(fig_sd, use_container_width=True, key="tab_student_departure")
         st.caption("**82.0%** of all students depart between 7:00 AM and 10:00 AM.")
         
     with col_d2:
         fig_wd = build_worker_departure_fig()
-        if fig_wd: st.plotly_chart(fig_wd, use_container_width=True)
+        if fig_wd: st.plotly_chart(fig_wd, use_container_width=True, key="tab_worker_departure")
         st.caption("**94.9%** of workers depart before 10:00 AM (56.5% between 8:00–10:00 AM).")
 
 # =============================================================================
@@ -771,7 +771,7 @@ with tabs[5]:
     col_c1, col_c2 = st.columns([3, 2])
     with col_c1:
         fig_cc = build_commute_costs_fig()
-        if fig_cc: st.plotly_chart(fig_cc, use_container_width=True)
+        if fig_cc: st.plotly_chart(fig_cc, use_container_width=True, key="tab_commute_costs")
             
     with col_c2:
         st.markdown("""
@@ -795,11 +795,11 @@ with tabs[6]:
     col_t1, col_t2 = st.columns(2)
     with col_t1:
         fig_om = build_overnight_modes_fig()
-        if fig_om: st.plotly_chart(fig_om, use_container_width=True)
+        if fig_om: st.plotly_chart(fig_om, use_container_width=True, key="tab_overnight_modes")
         
     with col_t2:
         fig_op = build_overnight_purposes_fig()
-        if fig_op: st.plotly_chart(fig_op, use_container_width=True)
+        if fig_op: st.plotly_chart(fig_op, use_container_width=True, key="tab_overnight_purposes")
 
     st.markdown("---")
     st.markdown("#### Empirical Microdata Deep-Dive (Levels 04 & 06)")
@@ -807,12 +807,12 @@ with tabs[6]:
     col_e1, col_e2 = st.columns(2)
     with col_e1:
         fig_se = build_seasonality_fig()
-        if fig_se: st.plotly_chart(fig_se, use_container_width=True)
+        if fig_se: st.plotly_chart(fig_se, use_container_width=True, key="tab_seasonality")
         st.caption("Travel surges in **Feb** (auspicious pilgrimage season), **May** (summer school break), and **Aug/Oct** (festivals).")
             
     with col_e2:
         fig_ts = build_top_states_fig()
-        if fig_ts: st.plotly_chart(fig_ts, use_container_width=True)
+        if fig_ts: st.plotly_chart(fig_ts, use_container_width=True, key="tab_top_states")
         st.caption("**Uttar Pradesh** leads overwhelmingly due to major pilgrimage centers (Varanasi, Ayodhya, Mathura, Prayagraj).")
 
     if "spend_categories" in DATA:
@@ -820,7 +820,7 @@ with tabs[6]:
         col_sp1, col_sp2 = st.columns([3, 2])
         with col_sp1:
             fig_sc = build_spend_categories_fig()
-            if fig_sc: st.plotly_chart(fig_sc, use_container_width=True)
+            if fig_sc: st.plotly_chart(fig_sc, use_container_width=True, key="tab_spend_categories")
             
         with col_sp2:
             st.dataframe(DATA["spend_categories"], use_container_width=True, height=280, hide_index=True)
@@ -840,7 +840,7 @@ with tabs[7]:
     col_sh1, col_sh2 = st.columns([3, 2])
     with col_sh1:
         fig_dm = build_daily_modes_fig()
-        if fig_dm: st.plotly_chart(fig_dm, use_container_width=True)
+        if fig_dm: st.plotly_chart(fig_dm, use_container_width=True, key="tab_daily_modes")
         
     with col_sh2:
         if "daily_purposes" in DATA:
